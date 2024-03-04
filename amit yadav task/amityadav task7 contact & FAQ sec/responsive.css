@@ -1,0 +1,88 @@
+
+html{
+    font-size: 10px;
+
+}
+
+@media screen and (max-width: 1024px) {
+    .hero-description h1 {
+            font-size: 4.5rem;
+            width: 100%;
+            font-weight: 500;
+          }
+          .hero-description p{
+            font-size: 1.6rem;
+          }
+    }
+@media screen and (max-width: 991px) {
+  
+    .card-body .hero-title h1{
+        font-size: 4.5rem;
+        width: 100%;
+        font-weight: 600;
+      }
+      .hero-description p{
+        font-size: 1.6rem;
+        font-weight: 400;
+
+    }
+.card-body-icon-img {
+    margin-top: 10rem;
+  }
+  .latest-movies h2{
+    font-size: 2rem;
+  }
+  
+  }
+
+
+@media screen and (max-width: 768px) {
+    .hero-description {
+      display: none;
+    }
+    .card-body .hero-title h1{
+        font-size: 4rem;
+        width: 100%;
+        font-weight: 600;
+      }
+
+
+---vidoe section responsive start ---
+.hero-title h1{
+  font-size: 2rem;
+  width: 100%;
+  font-weight: 400;
+  }
+  .hero-description p,.btn1, .playbtnanimate {
+display: none;
+  }
+  .category .view span{
+  padding: 0.4rem;
+  border-radius: 0.2rem;
+  font-size: 1.3rem;
+}
+.vidoes .hero-title{
+  margin-top: 10rem;
+}
+.playbtn{
+  width: 12rem;
+  padding: 0.3rem 0.8rem 0.3rem 0.8rem;  
+}
+.swiper-slide video  {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.video-text h5 {
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+.video-text h6 {
+  font-size: 1.2rem;
+  font-weight: 200;
+}
+  
+
+  }
+  

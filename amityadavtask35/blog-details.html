@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootsrap css  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+
+    <!-- Aos css &js cdn  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js">
+    <!-- swiper.js css   -->
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+
+    <!-- lightbox css and js  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css">
+
+    <!-- fontawesom cdn  -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- bootstrap icon cdn  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+<!-- custom css  -->
+<link rel="stylesheet" href="swiper.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="responsive.css">
+
+    <title>voxo blog detail page</title>
+</head>
+<body>
+
+<div id="preloader"></div>
+<!-- end preloader  -->
+
+<section class="header">
+    <div class="" id="navbar">
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid  d-flex flex-row">
+              <a class="navbar-brand" href="index.html">
+                <img src="images/asset 0.png" class="img-fluid" alt="">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-left">
+                  <li class="nav-item">
+                    <a class="nav-link "  href="index.html">Home</a>
+                  </li>
+                
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Shop
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                     
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Products
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                     
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      voxo plus
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                     
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Blog
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="blog-details.html">Blog Details </a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+               
+                </ul>
+              </div>
+
+
+              <ul class="ms-auto  nav-right">
+                <!-- icons nav -->
+                <li class="nav-item dropdown icon-link">
+                  <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <!-- <span><i class="bi bi-person"></i></span> -->
+                    <img src="images/asset 58.svg" class="img-fluid" alt="">
+                  </a>
+                  </li>
+                  <li class="nav-item dropdown icon-link">
+                      <a class="nav-link  " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <!-- <span><i class="bi bi-heart"></i></span> -->
+                        <img src="images/asset 59.svg" class="img-fluid" alt="">
+                          <!-- <b class="w3-badge w3-green">6</b> -->
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      </ul>
+                      </li>
+                     
+                   <!-- 3 -->
+                      <li class="nav-item dropdown icon-link">
+                      <a class="nav-link  " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <!-- <span><i class="bi bi-cart"></i></span> -->
+                        <img src="images/asset 60.svg" class="img-fluid" alt="">
+                        <b class="w3-badge w3-green">5</b>
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      </ul>
+                      </li>
+                      <li class="nav-item dropdown icon-link cart-btn ">
+                          <a class="nav-link  " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <span><i class="bi bi-cart"></i></span>
+                            <!-- <img src="images/asset 61.svg" class="img-fluid" alt=""> -->
+                            <strong>$5686.25</strong>
+                          </a>
+                          <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                          </ul>
+                          </li>
+                         </ul>
+
+            </div>
+          </nav>
+    </div>
+</section>
+
+<!-- blog hero section  -->
+<section class="blog-hero padding-top-bottom">
+  <div class="container-fluid">
+   <div class="row justify-content-center text-center">
+    <div class="col ">
+      <h5>Blog Details</h5>
+      <p><a href=""><span><i class="fa-solid fa-house"></i></span> / Blog Details</a></p>
+      
+    </div>
+   </div>
+  </div>
+</section>
+<!-- blog main section  -->
+
+<section class="blog-main ">
+  <div class="container-fluid">
+    <div class="row  padding-top-bottom" >
+      <div class="col-lg-3 d-md-block d-sm-block d-block blog-main-left">
+        <div class="col">
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="" type="submit"><span><i class="fa-solid fa-magnifying-glass"></i></span></button>
+          </form>
+        </div>
+        <div class="card margin-top-bottom">
+          <div class="col popular-post">
+            <h6>Popular Posts</h6>
+          </div>
+          <!--  -->
+          <div class="post-content d-flex gap-3 mt-4">
+            <div class=" mt-2"><h5><Span>01</Span></h5></div>
+            <div class="post-right">
+              <p>Lorem Ipsum is simply dummy text of the printing.</p>
+              <p><b>King Monster </b> in <b>News</b></p>
+              <p>
+                <span><img src="images/blog-details/asset 36.svg" class="img-fluid" alt=""></span> 
+              15m ago <span><img src="images/blog-details/asset 37.svg" class="img-fluid" alt=""> 8641</span>
+              </p>
+            </div>
+          </div>
+          <!-- 2 -->
+          <div class="post-content d-flex gap-3 mt-4">
+            <div class=" mt-2"><h5><Span>02</Span></h5></div>
+            <div class="post-right">
+              <p>Lorem Ipsum is simply dummy text of the printing.</p>
+              <p><b>King Monster </b> in <b>News</b></p>
+              <p>
+                <span><img src="images/blog-details/asset 36.svg" class="img-fluid" alt=""></span> 
+              15m ago <span><img src="images/blog-details/asset 37.svg" class="img-fluid" alt=""> 8641</span>
+              </p>
+            </div>
+          </div>
+          <!-- 3 -->
+          <div class="post-content d-flex gap-3 mt-4">
+            <div class=" mt-2"><h5><Span>03</Span></h5></div>
+            <div class="post-right">
+              <p>Lorem Ipsum is simply dummy text of the printing.</p>
+              <p><b>King Monster </b> in <b>News</b></p>
+              <p>
+                <span><img src="images/blog-details/asset 36.svg" class="img-fluid" alt=""></span> 
+              15m ago <span><img src="images/blog-details/asset 37.svg" class="img-fluid" alt=""> 8641</span>
+              </p>
+            </div>
+          </div>
+          <!-- 4 -->
+          <div class="post-content d-flex gap-3 mt-4">
+            <div class=" mt-2"><h5><Span>04</Span></h5></div>
+            <div class="post-right">
+              <p>Lorem Ipsum is simply dummy text of the printing.</p>
+              <p><b>King Monster </b> in <b>News</b></p>
+              <p>
+                <span><img src="images/blog-details/asset 36.svg" class="img-fluid" alt=""></span> 
+              15m ago <span><img src="images/blog-details/asset 37.svg" class="img-fluid" alt=""> 8641</span>
+              </p>
+            </div>
+          </div>
+          <!--  -->
+        </div>
+        <div class="card margin-top-bottom">
+          <div class="col category">
+            <h6>Category</h6>
+            <div class="">
+              <p class="d-flex gap-5"><span><i class="fa-solid fa-globe"></i></span>
+              <a class="mt-2" href="">Global</a>
+              </p>
+            </div>
+            <!--  -->
+            <div class="">
+              <p class="d-flex gap-5"><span><i class="fa-solid fa-building"></i></span>
+              <a class="mt-2" href="">Business</a>
+              </p>
+            </div>
+            <!--  -->
+            <div class="">
+              <p class="d-flex gap-5"><i class="fa-solid fa-play"></i></span>
+              <a class="mt-2" href="">Entertainmant</a>
+              </p>
+            </div>
+            <!--  -->
+            <div class="">
+              <p class="d-flex gap-5"><span><i class="fa-solid fa-shirt"></i></span>
+              <a class="mt-2" href="">Sports</a>
+              </p>
+            </div>
+            <!--  -->
+            <div class="">
+              <p class="d-flex gap-5"><span><i class="fa-solid fa-notes-medical"></i></span>
+              <a class="mt-2" href="">Health</a>
+              </p>
+            </div>
+            <!--  -->
+          </div>
+        </div>
+
+      </div>
+      <div class="col-lg-9 d-md-block d-sm-block d-block blog-main-right">
+        <div class="col big-img">
+          <img src="images/blog-details/asset 14.jpeg" class="img-fluid" alt="">
+        </div>
+        <div class="blog-right-content">
+          <p>August 15 2021</p>
+          <h5>Just A Standard Format Post.</h5>
+         <div class="pg ">
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+            Lorem Ipsum has been the industry's standard dummy
+             text ever since the 1500s, Lorem Ipsum has been the industry's standard 
+             dummy text ever since the 1500s.looked up one of the more obscure Latin words, 
+             consectetur, from a Lorem Ipsum passage.</p>
+             <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots
+               in a piece of classical Latin literature from 45 BC, making it over 2000 years 
+               old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, 
+               looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum 
+               passage, and going through the cites of the word in classical literature, discovered 
+               the undoubtable source. Lorem Ipsum comes from sections 1.10.32
+               and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) 
+               by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very 
+               popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor
+                sit amet..", comes from a line in section 1.10.32. The standard chunk of Lorem 
+                Ipsum used since the 1500s is reproduced below for those interested. Sections
+                 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also
+                  reproduced in their exact original form, accompanied by English versions
+                   from the 1914 translation by H. Rackham</p>
+                   <p>It is a long established fact that a reader will be distracted by the readable
+                     content of a page when looking at its layout. The point of using Lorem Ipsum is
+                      that it has a more-or-less normal distribution of letters, as opposed to using
+                       'Content here, content here', making it look like readable English. Many desktop 
+                       publishing packages and web page editors now use Lorem Ipsum as their default model 
+                       text, and a search for 'lorem ipsum' will uncover many web sites still in their 
+                       infancy. Various versions have evolved over the years, sometimes by accident, 
+                    sometimes on purpose injected humour and the like.</p>
+         </div>
+         <div class="user d-flex flex-row  gap-4 mt-5">
+          <div><img src="images/blog-details/asset 15.jpeg" class="img-fluid" alt=""></div>
+          <div>
+            <h3>John wike</h3>
+            <p>15 Aug 2021</p>
+           </div>
+         </div>
+
+         <div class="comment mt-5 mb-4">
+          <h3>Leave Comments          </h3>
+         <form>
+         <div class="row mt-4">
+          <div class="col-sm-4">
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="text" class="form-control" id="email" placeholder="Enter First Name" required>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="text" class="form-control" id="email" placeholder="Enter Last Name" required>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="email" placeholder="example@example.com" required>
+            </div>
+          </div>
+          <div class="col-sm-12">
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Comments</label>
+                <textarea name="comment" id="comment" cols="30" rows="5" placeholder="Leave a Comment here" ></textarea>
+            </div>
+          </div>
+         </div>
+          <a type="submit" class="cart-btn btn-primary">Submit</a>
+        </form>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- blog products  -->
+<div class="blog-products">
+  <div class="container-fluid">
+    <div class="row">
+
+        <!-- Swiper -->
+  <div class="swiper myBlogproducts">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="col">
+          <div class="card">
+            <div class="card-img">
+              <img src="images/blog-details/asset 17.jpeg" class="card-img-top img-fluid  " alt="...">
+
+            </div>
+            <div class="card-body text-start">
+              <h6 class="card-title">How To Make The Perfect <br> Morning Coffee. ACcoording To The Science</h6>
+              <p>Jhon Wink  <span class="mx-4" >15 Aug 2021</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 2 -->
+      
+      <div class="swiper-slide">
+        <div class="col">
+          <div class="card">
+            <img src="images/blog-details/asset 18.jpeg" class="card-img-top img-fluid  " alt="...">
+            <div class="card-body text-start">
+              <h6 class="card-title">How To Make The Perfect <br> Morning Coffee. ACcoording To The Science</h6>
+              <p>Jhon Wink  <span class="mx-4" >15 Aug 2021</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--4  -->
+      <div class="swiper-slide">
+        <div class="col">
+          <div class="card">
+            <img src="images/blog-details/asset 19.jpeg" class="card-img-top img-fluid  " alt="...">
+            <div class="card-body text-start">
+              <h6 class="card-title">How To Make The Perfect <br> Morning Coffee. ACcoording To The Science</h6>
+              <p>Jhon Wink  <span class="mx-4" >15 Aug 2021</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--  -->
+      <div class="swiper-slide">
+        <div class="col">
+          <div class="card">
+            <img src="images/blog-details/asset 20.jpeg" class="card-img-top img-fluid  " alt="...">
+            <div class="card-body text-start">
+              <h6 class="card-title">How To Make The Perfect <br> Morning Coffee. ACcoording To The Science</h6>
+              <p>Jhon Wink  <span class="mx-4" >15 Aug 2021</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--  -->
+         <!-- 3 -->
+         <div class="swiper-slide">
+          <div class="col">
+            <div class="card">
+              <img src="images/blog-details/asset 18.jpeg" class="card-img-top img-fluid  " alt="...">
+              <div class="card-body text-start">
+                <h6 class="card-title">How To Make The Perfect <br> Morning Coffee. ACcoording To The Science</h6>
+                <p>Jhon Wink  <span class="mx-4" >15 Aug 2021</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--4  -->
+        <div class="swiper-slide">
+          <div class="col">
+            <div class="card">
+              <img src="images/blog-details/asset 19.jpeg" class="card-img-top img-fluid  " alt="...">
+              <div class="card-body text-start">
+                <h6 class="card-title">How To Make The Perfect <br> Morning Coffee. ACcoording To The Science</h6>
+                <p>Jhon Wink  <span class="mx-4" >15 Aug 2021</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--  -->
+        <div class="swiper-slide">
+          <div class="col">
+            <div class="card">
+              <img src="images/blog-details/asset 20.jpeg" class="card-img-top img-fluid  " alt="...">
+              <div class="card-body text-start">
+                <h6 class="card-title">How To Make The Perfect <br> Morning Coffee. ACcoording To The Science</h6>
+                <p>Jhon Wink  <span class="mx-4" >15 Aug 2021</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--  -->
+      
+    </div>
+ <div id="pagination">
+  <div class="swiper-pagination"></div>
+ </div>
+  </div>
+      
+    </div>
+  </div>
+</div>
+
+<!-- news section -->
+<div class="section news padding-top-bottom">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-8 d-sm-block d-block">
+        <div class="col mt-5">
+          <h5>Subscribe Our News</h5>
+          <p class="mt-4">Subscribe and receive our newsletters to follow the news about our fresh and fantastic Shoes Products.</p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 d-sm-block d-block footer">
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="cart-btn fs-4" type="submit">Button</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- footer -->
+
+
+<section class="footer">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-3 col-md-6 d-sm-block mb-4">
+        <div class="col address mt-5">
+          <img src="images/asset 0.png" class="img-fluid" alt="">
+          <div class="d-flex flex-row gap-4 ">
+            <b>Phone:</b>
+            <p> + 185659635</p>
+          </div>
+          <div class="d-flex flex-row gap-4">
+            <b>Address: </b>
+          <p>1418 Riverwood Drive, Suite 3245 Cottonwood, CA 96052, United States          </p>
+          </div>
+          <div class="d-flex flex-row gap-4">
+            <b>Email: </b>
+          <p>Voxo123@Gmail.Com      </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-4 d-sm-block">
+        <div class="about mt-4">
+          <h3>About us</h3>
+          <p><a href=""> Home</a></p>
+          <p><a href="">Shop</a></p>
+          <p><a href="">About Us</a></p>
+          <p><a href="">Blog</a></p>
+          <p><a href="">Contact</a></p>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-4 d-sm-block order-md-3">
+        <div class="new-cat mb-4">
+          <h3>New Categores</h3>
+          <p><a href="">Latest Shoes</a></p>
+          <p><a href="">Branded Jeans</a></p>
+          <p><a href=""> New Jackets</a></p>
+          <p><a href="">New Jackets</a></p>
+          <p><a href="">Colorfull Hoodies</a></p>
+          <p><a href="">Shiner Goggles</a></p>
+        </div>
+      </div>
+     
+      <div class="col-lg-2 col-md-4 d-sm-block">
+        <div class="help">
+          <h3>Get Help</h3>
+          <p><a href="">Your Orders</a></p>
+          <p><a href="">  Your Account</a></p>
+          <p><a href="">Track Orders</a></p>
+          <p><a href="">Your Wishlist</a></p>
+          <p><a href="">Shopping FAQs</a> </p>
+          
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 d-sm-block order-md-3">
+        <div class="">
+          <h3>Let’s stay in touch</h3>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="" type="submit"><span><i class="fa-solid fa-arrow-right fa-2"></i></span></button>
+          </form>
+          <p>Keep up to date with our latest news and special offers.</p>
+        </div>
+      </div>
+    </div>
+<hr>
+
+<div class="copyright mt-2 mb-5">
+  <div class="row justify-content-between">
+    <div class="col-lg-6  col-md-6 dsm-block d-flex flex-row gap-2">
+      <div><p>We Accecepted </p></div>
+      <div class="d-flex flex-row gap-4 mt-4">
+        <img src="images/asset 50.jpeg" class="img-fluid" alt="">
+        <img src="images/asset 51.jpeg" class="img-fluid" alt="">
+        <img src="images/asset 52.jpeg" class="img-fluid" alt="">
+        <img src="images/asset 53.jpeg" class="img-fluid" alt="">
+  
+      </div>
+    </div>
+    <div class="col-lg-6  col-md-6 dsm-block">
+      <p>© 2022, Voxo Theme. Made with heart by Pixelstrap</p>
+    </div>
+  </div>
+</div>
+  </div>
+  
+
+ 
+</section>
+
+
+
+
+
+<!-- top-button  -->
+<label id="top-button"><i class="bi bi-chevron-up"></i></label>
+<!--  -->
+<!-- jquery -->
+<script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js
+"></script>
+<!-- SWIPER.JS  for slider-->
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <!-- Aos for scroll animation  -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<!-- custom js link  -->
+ <script src="script.js"></script>
+</body>
+</html>

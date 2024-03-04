@@ -1,0 +1,90 @@
+:root{
+  --white:#ffffff;
+   --dark-black:#000000;
+  --sky-color:#00acee;
+  --sky-opacity:rgba(8, 152, 196, 0.274);
+  --text-color:#454545  ;
+  --bg-gray:#f4f4f4;
+  --bg-gray2:rgba(163, 110, 110, 0.01);
+  --gray:#cccccc;
+  --dark-blue:#011a48;
+  --text-color2:#798294;
+}
+.swiper {
+    width:100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+ 
+
+  .swiper-slide img {
+    display: block;
+    width:fit-content;
+    height: 100%;
+    object-fit: cover;
+  }
+  /* services scroll buttton  */
+  .services-wrapper {
+    position: relative;
+  }
+  .service-swiper-button-next i{
+    background-color: black;
+    padding: 1.1rem 1.3rem 1.1rem 1.3rem;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    right: 2.5rem;
+    z-index: 1;
+  }
+  .service-swiper-button-prev i{
+    background-color: black;
+    padding: 1.1rem 1.3rem 1.1rem 1.3rem;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 2.5rem;
+    z-index: 1;
+    transition: 0.5s;
+  }
+  .services-btn i:hover{
+    background-color: var(--sky-color);
+  }
+
+/*  blog section scroll button */
+  .blog-swiper-button-next i{
+    background-color:var(--white);
+    padding: 1.4rem 1.7rem 1.4rem 1.7rem;
+    font-size: 1.5rem;
+    color:var(--sky-color);
+    position: absolute;
+    top: 27%;
+    right: 0rem;
+    z-index: 1;
+  }
+  .blog-swiper-button-prev i{
+    background-color: var(--white);
+    padding: 1.4rem 1.7rem 1.4rem 1.7rem;
+    font-size: 1.5rem;
+    color:var(--sky-color);
+    position: absolute;
+    top: 27%;
+    left: 0rem;
+    z-index: 1;
+    transition: 0.5s;
+  }
+  .blog-btn i:hover{
+    background-color: var(--sky-color);
+    color: var(--white);
+  }

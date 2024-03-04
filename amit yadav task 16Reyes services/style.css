@@ -1,0 +1,598 @@
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 10px;
+}
+/* pre looader */
+#preloader{
+  background:#000  url('images/asset\ 11.svg') no-repeat center;
+  background-size: 15%;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+/* end preloooader */
+/* top button */
+#top-button{
+  position: fixed;
+  bottom: 4rem;
+  right: 2rem;
+  z-index: 1;
+}
+#top-button span{
+  font-size: 1.5rem;
+  padding: 0.7rem 0.9rem 0.7rem 0.9rem ;
+  color: var(--white);
+background-color:#18012c;
+border-radius: 50%;
+outline: 0.3rem solid var(--white);
+}
+/* end top button  */
+:root{
+  --white:#ffffff;
+   --dark-black:#000000;
+  --sky-color:#00acee;
+  --sky-opacity:rgba(8, 152, 196, 0.274);
+  --text-color:#454545  ;
+  --bg-gray:#f4f4f4;
+  --bg-gray2:rgba(163, 110, 110, 0.01);
+  --gray:#cccccc;
+  --dark-blue:#011a48;
+  --text-color2:#798294;
+}
+h1{
+  font-size: 6rem;
+  font-weight: 800;
+  color:white;
+  line-height: 8rem;
+  letter-spacing: 0.1rem;
+}
+h2{
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: var(--dark-black);
+  line-height: 4.5rem;
+letter-spacing: 0.1rem;
+text-transform: capitalize;
+}
+h3{
+  font-size: 2.2rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-top: 2,2rem;
+  margin-bottom: 2rem;
+}
+h4{
+  font-size: 2.2rem;
+  font-weight: 500;
+  text-transform:capitalize;
+  margin-top: 2.2rem;
+  margin-bottom: 2rem;
+}
+p{
+  font-size: 1.6rem;
+  color: var(--text-color);
+  line-height: 2.7rem;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  font-weight: 400;
+}
+
+/* header sections start  */
+.navbar{
+  padding: 3.8rem 3.5rem 3.8rem 2.7rem;
+  /* background-color: white; */
+  color: var(--text-color);
+}
+.navbar-brand img{
+  width: 14rem;
+}
+.navbar-nav{
+  width: 100%;
+}
+
+.navbar-nav li{
+  margin-right: 3rem;
+}
+button{
+  border: none;
+  color: var(--white);
+}
+
+.nav-link{
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: var(--white);
+}
+.nav-link:hover{
+  color: rgb(167, 45, 45); 
+} 
+
+.nav-btn .nav-link:hover {
+  color: var(--white);
+}
+.nav-btn{
+  border-radius: 5rem;
+  transition: 0.2s;
+  padding: 0.3rem 2rem 0.3rem 1.8rem;
+  border: 0.2rem solid var(--white);
+  text-transform: uppercase;
+
+}
+.nav-btn:hover{
+  background-color: var(--sky-color);
+  border: 0.2rem solid var(--sky-color);
+}
+/* dropdowns start  */
+nav ul li:hover>ul{
+  display: block;
+}
+.dropdown-menu{
+  border: none !important;
+  width:max-content;
+  padding: 3rem 3rem 3rem 2rem;
+  text-transform: capitalize;
+  background-color: var(--white);
+
+}
+.dropdown-item{
+  color: var(--text-color);
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin-top: 0.8rem;
+
+}
+.dropdown-item:hover{
+  background-color:var(--white);
+  color:red;
+}
+/* hero section  */
+.header{
+  filter: brightness(90%);
+  background-image:
+  linear-gradient(20deg,
+    rgba(0, 0, 0, 0.45),
+    rgba(0, 0, 0, 0.4)), url('images/asset\ 7.webp');
+      background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  /* padding: 6rem 6rem; */
+
+}
+
+.hero-wrapper p{
+  color: var(--white);
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+.hero-text{
+  margin-top: 11rem;
+}
+.hero-wrapper h1 span{
+  font-size: 8rem;
+  font-weight: 800;
+  color:white;
+  line-height: 7rem;
+  letter-spacing: 0.3rem;
+}
+a{
+  color: var(--white);
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+/* why chose us section  */
+.chooseus-wrapper{
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  padding: 5rem 5rem;
+}
+.chooseus-wrapper .icon{
+  font-size: 3rem;
+  color: var(--text-color);
+  border-radius: 50%;
+  width: 10rem;
+  height: 10rem;
+  position: relative;
+}
+.chooseus-wrapper .icon span{
+    background-color: var(--bg-gray);
+    border-radius: 50%;
+    height: 7rem;
+    width: 7rem;
+    /* padding: 1.4rem 1.8rem 1.4rem 1.8rem; */
+    position:absolute;
+    left: 1.4rem;
+    top: 1.4rem;
+}
+.chooseus-wrapper .icon span i{
+  margin-top: 2rem;
+}
+
+.chooseus-wrapper .icon:hover{
+  border: 0.1rem solid var(--sky-color);
+  color: var(--white);
+}
+.chooseus-wrapper .icon:hover> span{
+  background-color: var(--sky-color);
+}
+
+.chooseus-wrapper .choose-text .line{
+  background-color: var(--sky-color);
+  height: 0.3rem;
+  width: 4rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+/* end why chose us section  */
+
+/* start service section  */
+.services-wrapper{
+  background-color: var(--bg-gray);
+  padding: 10rem 0rem 10rem 0rem;
+}
+.services-wrapper p{
+  margin-bottom: 3rem;
+  margin-top: 2rem;
+}
+.btn1{
+  color: var(--text-color);
+  padding: 1.3rem 3.5rem 1.3rem 3.5rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+   text-transform: uppercase;
+} 
+.btn1:hover{
+color: var(--sky-color);
+} 
+.card{
+  border: none;
+  padding-bottom: 3rem ;
+}
+
+/* .services price section start  */
+.servicesPrice-wrapper{
+  margin-top:  3rem;
+
+  padding: 6rem 6rem;
+  margin-bottom: 3rem;
+}
+.servicesPrice-wrapper .card{
+  box-shadow: 0.1rem 0.1rem 0.9rem var(--gray);
+}
+.price1{
+  background:url(images/asset\ 8.webp);
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  padding: 2rem 3rem 2rem 3rem ;
+
+}
+.price2{
+  background:url(images/asset\ 9.webp);
+  background-position:center;
+  background-size:100%;
+  background-repeat: no-repeat;
+  padding: 2rem 0rem 2rem 0rem ;
+}
+.servicesPrice-wrapper .card{
+  padding: 3rem 3rem;
+}
+.card2 h6{
+  color: var(--sky-color);
+}
+.services-wrapper .card2 h4{
+  color:red;
+}
+.servicesPrice-wrapper h4{
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--sky-color);
+  letter-spacing: 0.3rem;
+}
+h5{
+  font-size: 2.2rem;
+  font-weight: 400;
+  color: var(--text-color2);
+  margin-top: 2.7rem;
+}
+h6{
+  color: var(--dark-blue);
+}
+
+.price  span:nth-child(1){
+  font-size: 3rem;
+  font-weight: 800;
+}
+.price  span:nth-child(2){
+  font-size: 6.4rem;
+  font-weight: 800;
+}
+.price  span:nth-child(3){
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.btn2{
+  background-color: var(--dark-blue);
+  color: var(--white);
+  padding: 1.3rem 6rem 1.3rem 6rem;
+  border-radius: 5rem;
+}
+.btn2:hover{
+  background-color: var(--sky-color);
+}
+.btn4{
+  background-color: var(--sky-color);
+  color: var(--white);
+  font-weight: 500;
+  padding: 1.3rem 6rem 1.3rem 6rem;
+  border-radius: 5rem;
+}
+.btn4:hover{
+  background-color: var(--dark-blue);
+}
+
+/* banking services ------------------ */
+.banking-wrapper{
+  margin-top: 7rem;
+  background: url(images/asset\ 10.webp);
+  padding: 13rem 13rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banking-wrapper input{
+  padding: 2rem;
+  width: 100%;
+  border: 0.1rem solid rgba(121, 121, 121, 0.33);
+  background-color: var(--bg-gray2);
+  color: var(--text-color2);
+  border-radius: none;
+}
+textarea{
+  border:  0.1rem solid var(--text-color2);
+  background-color: var(--bg-gray2);
+
+}
+::placeholder{
+  color: var(--text-color2);
+  font-size: 1.5rem;
+}
+.btn5{
+  background-color: #03a9f4 ;
+  font-size: 2rem;
+  font-weight: 500;
+  padding: 1.5rem 4rem 1.5rem 4rem;
+}
+.banking-wrapper .banking-text{
+  margin-top: 0rem;
+}
+
+
+/* start blogs sections  */
+
+.blog-wrapper {
+  margin-top: 3rem; margin-bottom: 3rem;
+  padding: 6rem 6rem;
+}
+.blog-wrapper .card-body p{
+  margin-bottom: 1.7rem;
+  margin-top: 0rem;
+  color: var(--text-color);
+  font-weight: 500;
+  font-size: 1.6rem;
+}
+
+.blog-wrapper h6{
+  margin-top: 1rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: var(--text-color);
+}
+.blog-wrapper h4 a{
+  font-size: 2.5rem;
+  color: var(--text-color);
+  margin-bottom: 0rem;
+  transition: 0.5rem;
+}
+.blog-wrapper a{
+  color: var(--text-color);
+  font-size: 2.7rem;
+  font-weight: 500;
+  text-transform: none;
+}
+.blog-wrapper a:hover{
+  color: var(--sky-color);
+}
+.blog-wrapper .blog-btn a{
+  font-size: 1.5rem;
+  color: var(--text-color);
+  transition: 0.5s;
+  margin-bottom: 0rem;
+}
+.blog-wrapper .blog-btn a:hover{
+ color: var(--sky-color);
+}
+
+.blog-wrapper .blog-btn .line2{
+  background-color: var(--text-color2);
+  height: 0.1rem;
+  width: 9rem;
+
+}
+
+/* end blogs section  */
+
+#btn3{
+  margin-top: 6rem;
+  margin-bottom: 0rem;
+}
+.btn3{
+  padding: 1.5rem 5.2rem 1.5rem 5.2rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+   border-radius: 5rem;
+   text-transform: uppercase;
+   color:var(--white);
+   border: 0.2rem solid var(--white);
+}
+.btn3:hover{
+  background-color: var(--sky-color);
+color: var(--white);
+border: 0.2rem solid var(--sky-color);
+}
+
+
+/* footer sections seart  */
+.footer-wrapper{
+  background-color:#222121f1;
+  padding: 7rem 7rem;
+  color: var(--white);
+}
+.footer-wrapper h4{
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+.footer-wrapper a{
+  color: var(--white);
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+.footer-wrapper p{
+  font-size: 1.7rem;
+  color: var(--white);
+}
+.footer-wrapper li{
+  list-style: none;
+  line-height: 2.5rem;
+  transition: 0.5s  ;
+  font-weight: 400  ;
+}
+.footer-wrapper a:hover{
+  color: var(--sky-color);
+}
+.footer-text{
+  margin-top: 2rem;
+}
+.footer-form{
+  position: relative;
+}
+.footer-wrapper .footer-text input{
+  border: 0.1rem solid var(--white);
+  background-color: rgba(59, 59, 59, 0.021) ;
+  padding: 0.8rem;
+  border-radius: none ;
+}
+
+  
+ .btn{
+  background-color: var(--sky-color);
+  position: absolute;
+  right: 0;
+  padding: 0.4rem 2rem 0.4rem 2rem ;
+  font-size: 1.6rem;
+  border: 0.1rem solid var(--sky-color);
+  color: var(--white);
+}
+.btn:hover{
+  background-color:rgb(54, 6, 99);
+}
+.footer-wrapper span{
+  font-weight:500;
+}
+.footer-wrapper .social-media span {
+  font-size: 1rem;
+  /* background-color: var(--gray); */
+  padding: 0.8rem;
+  border-radius: 0.3rem;
+  margin-left: 0.9rem;
+}
+.footer-wrapper .social-media span:nth-child(1) {
+  background-color: var(--dark-blue);
+  margin-bottom: 1rem;
+}
+.footer-wrapper .social-media span:nth-child(2) {
+  background-color:var(--sky-color);
+  margin-bottom: 1rem;
+
+}
+.footer-wrapper .social-media span:nth-child(3) {
+  background-color: lightcoral;
+  margin-bottom: 1rem;
+
+}
+.footer-wrapper .social-media span:nth-child(4) {
+  background-color:#0780a5;
+  margin-bottom: 1rem;
+
+}
+.footer-wrapper .social-media span:nth-child(5) {
+  background-color:rgb(214, 29, 29);
+  margin-bottom: 1rem;
+
+}
+
+
+.footer-wrapper h4 span{
+  color: var(--sky-color);
+}
+
+
+.bootom-footer{
+  background-color:#222121fa;
+font-weight: 500;
+color: var(--white);
+}
+.bootom-footer p{
+  color: var(--white);
+  font-size: 1.4rem;
+  padding-top: 1rem;
+
+}
+
+/* end footer sections  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

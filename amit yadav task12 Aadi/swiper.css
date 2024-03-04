@@ -1,0 +1,62 @@
+
+
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+    z-index: -5;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 120%;
+  }
+
+
+.case-study .swiper{
+  z-index: 1;
+  position: relative;
+} 
+.hero-slide1{
+background-image: url(images/asset\ 41.jpeg); 
+background-position:center; 
+ background-size:100% 100%;
+  background-repeat: no-repeat;
+}
+  /* .testimonial */
+
+  .testimonial .swiper {
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+  .testimonial .swiper-slide img {
+  width: 30%;
+  height: 100%;
+    object-fit: cover;
+    position: relative;
+    right: -13rem;
+  }
+ .tes .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

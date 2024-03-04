@@ -1,0 +1,480 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    background-color: rgb(243, 243, 243);
+}
+p,li{
+    line-height: 30px;
+
+}
+
+a{
+    text-decoration: none;
+    color: var(--text-black);
+}
+
+.container{
+    overflow: hidden;
+}
+.container-fluid{
+    overflow: hidden;
+}
+/* heroseciton  */
+
+:root{
+    --text-red:red;
+    --btn-bg-color:rgb(217, 25, 22);
+    --text-white:white;
+    --text-black:black;
+    --card-bg-color:rgb(230, 230, 230);
+}
+h1{
+    font-size: 40px;
+    font-weight: 600;
+    color: var(--text-white);
+}
+h2{
+    font-size: 50px;
+    font-weight: 600;
+    font-family:Arial, sans-serif;
+}
+h3{
+    font-size: 40px;
+    font-weight: 700;
+}
+h6{
+    color: var(--text-red);
+}
+
+.herosection{
+    background-image: url('images/asset\ 35.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    padding-bottom: 100px;
+}
+.navbar{
+    padding: 20px;
+}
+.navbar-brand{
+    background-color: white;
+    /* width: 170px; */
+    padding: 20px 20px 20px 10px;
+    border-radius: 5px;
+}
+.navbar-brand img{
+    width: 150px;
+}
+.nav-link{
+    color: white !important;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 5px;
+}
+.freequote{
+    background-color: var(--text-red);
+  padding: 10px;
+    border-radius: 5px;
+}
+.freequote:hover{
+    background-color: var(--text-black);
+  padding: 10px;
+    border-radius: 5px;
+}
+
+/* hero part seciton ---------------------------------- */
+.heropart img{
+    border-radius: 5px;
+    width: 750px;
+}
+
+.heropart-left{
+    margin-top: 100px;
+}
+.btn-custom a{
+margin: 15px;
+}
+.btn-custom .btn1{
+    text-decoration: none;
+    padding: 15px 40px 15px 40px;
+    border-radius: 5px;
+    color: var(--text-white);
+    background-color: var(--btn-bg-color);
+}
+.btn1:hover{
+  
+    padding: 15px 40px 15px 40px;
+    border-radius: 5px;
+    color: var(--text-white);
+    background-color:black;
+}
+.btn-custom .btn2{
+      text-decoration: none;
+      border-radius: 5px;
+      padding: 15px 40px 15px 40px;
+      color: var(--text-black);
+      background-color: var(--text-white);
+}
+.btn2:hover{
+  
+    padding: 15px 40px 15px 40px;
+    border-radius: 5px;
+    color: var(--text-white);
+    background-color:black;
+}
+
+
+/* start services seciton  */
+.services .servicesicon a{
+    color: var(--text-red);
+}
+.servicesicon{
+    font-size: 50px; 
+    margin-top: 10px;
+    color: var(--text-red);
+}
+.services-text{
+    margin-top: 10px;
+}
+.services-sec{
+    background-color:var(--text-white);
+    padding-top:20px;
+    padding-bottom: 20;
+    width: 31%;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+}
+.services{
+    position: relative;
+    bottom: 60px;
+}
+/* end services section  */
+
+
+/* start comany section */
+
+.about-company img{
+    height: 450px;
+    border-radius: 10px;
+}
+.about-company h2{
+    font-size: 46px;
+    font-weight: 600;
+    color: black;
+}
+.company-img{
+    padding: 30px;
+}
+
+/* start About Company */
+.company-text{
+    margin-top: 80px !important;
+    line-height: 40px;
+   
+}
+.btn1{
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    color: var(--text-white);
+    background-color: var(--btn-bg-color);
+}
+
+/* end about company */
+
+
+/* OUR SERVICES  */
+.our-services{
+    background-color: #f0f0f0;
+    background-image: url('images/asset\ 37.png');
+   margin-top: 60px;
+   line-height: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h2,h6{
+    letter-spacing: 3px;
+}
+.our-services-start{
+    margin-bottom: 100px;
+    margin-top: 130px;
+}
+/* .our-services h2{
+    font-size: 50px;
+    font-weight: 600;
+    font-family:Arial, sans-serif;
+} */
+.our-services-part{
+    background-color:var(--text-white);
+    border-radius: 4px;
+    width: 31%;
+    padding-bottom: 40px;
+}
+.our-services-part a{
+    text-decoration: none;
+    font-size: 40px;
+    color: var(--text-red);
+}
+.our-services-part li a{ 
+    color: var(--text-black);
+    font-size: 18px;
+    line-height: 30px;
+    list-style:circle;
+   
+}
+
+.our-services-part li{
+    transition: .5s ease-in;
+}
+
+.our-services-part li:hover{
+    color: red;
+    transform: translateX(8px);
+    cursor: pointer;
+   
+}
+.our-services-part h3{
+    font-size: 40px;
+}
+
+/* Choise  seciton start  */
+.chooseus{
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+.chooseus .card{
+    border: none;
+    background-color:var(--card-bg-color);
+    border-radius: 3px;
+    padding-top:50px ;
+    padding-bottom: 50px;
+    width: 21%;
+    margin-top: 40px;
+  
+
+}
+.chooseus .social-icon{
+    color: var(--text-white);
+ 
+    font-size:  40px;
+    width: 100PX;
+line-height: 100px;
+    background-color: var(--text-red);
+    border-radius: 50%;
+}
+
+
+
+/* end chooise sectuion   */
+
+/* OUR LATEST WORK SECTION  */
+.latest-work{
+    background-image: url('images/asset\ 35.jpeg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.project{
+    margin-top: 150px;
+   
+}
+.project-text{
+    margin-left: 60px;
+   
+}
+/* END OUR LATES SECTION  */
+
+/* start benfit section  */
+.our-benfit{
+    margin-top: 100px;
+    margin-bottom: 100px;
+   
+}
+.benfit-form{
+    background-color:var(--card-bg-color);
+    padding: 50px;
+    border-radius: 5px;
+}
+.our-benfit li{
+    line-height: 50px;
+
+}
+.our-benfit input{
+  border: none;
+  padding: 16px;
+}
+
+/* end benfit seciton  */
+/* our client say seciton  */
+.client-say-text{
+    background-color: var(--text-red);
+    padding: 80px;
+
+}
+.client-say-text h6{
+    color: var(--text-white);
+    
+}
+.client-say-text .swiper-slide img{
+    width: 120px;
+    height: 90;
+}
+.myClient .swiper-slide .card{
+    padding: 50px;
+    border-radius: 5px;
+}
+
+.client-say .client-text p{
+    color: var(--text-red);
+
+}
+
+.client-say .myClient p{
+    columns: var(--text-red);
+}
+
+.client-say-img{
+background-image: url('images/asset\ 22.jpeg');
+
+background-position:center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+/* end our client say seciton  */
+
+/* bolgs section  */
+.blog-section{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+}
+.blog-section .card{
+    border: none;
+    border-radius: 5px;
+
+}
+.myBlog .swiper-slide .card-title i{
+color: var(--text-red);
+
+}
+.myBlog h3{
+    font-size: 30px;
+    font-weight: 700;
+}
+.myBlog .card-body{
+    padding: 30px;
+}
+
+.myBlog .swiper-slide .card-title i,a:hover{
+    color: var(--text-red);
+    
+    }
+/* end blogs seciton  */
+
+
+
+
+
+/* our services seciotn  */
+.ourservices2{
+    background-color: var(--text-white);
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 50px;
+}
+.ourservices2 li{
+    list-style: circle;
+}
+
+/* technology section  */
+.technology{
+    background-image: url('images/asset\ 35.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 60px;
+    padding-bottom: 200px;
+    margin-bottom: 340px;
+ 
+}
+.videosec{
+    position: relative;
+    bottom: 400px;
+    
+} 
+.videosec iframe{
+    position: absolute;
+    width: 98%;
+    height: 400px !important;
+    border-radius: 10px;
+    
+    
+}
+
+.social-media{
+    position: relative;
+    top: 130px;
+}
+
+
+/* ADDRESS  */
+.address .address-sec{
+    width: 33.2%;
+    background-color: var(--text-white);
+    border-radius: 3px;
+    border: none;
+    padding: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* footer section  */
+footer{
+    
+    background-image: url('images/asset\ 35.jpeg');
+    color: white    ;
+}
+.footer1{
+    margin-top: 100px;
+}
+footer li{
+    list-style:circle;
+    color: var(--text-red);
+    margin-top: 20px;
+}
+.footer-brand a{
+    font-size: 30px;
+    color: brown;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+.socila-icon a{
+    background-color: black;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+/* top button scroll  */
+
+#top-button{
+    color: var(--text-red);
+    width: px;
+ 
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}

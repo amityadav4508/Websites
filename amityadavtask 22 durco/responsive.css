@@ -1,0 +1,399 @@
+        
+
+ @media screen and ( max-width: 1350px) {
+    .hero #vehiicale{
+      width: 30rem;
+      border:nones;
+    
+    }
+  }
+  
+          @media screen and ( max-width: 1285px) {
+            .nav-contact{
+              display: none;
+            }  
+          }
+          @media screen and ( max-width: 1080px) {
+            .hero #vehiicale{
+              width: 28rem !important;
+              border:nones;
+            }
+            .client-say h3{
+              font-size: 1.5rem;
+            } 
+            .client-say h6 span{
+              color: var(--yellow);
+              font-size: 1.1rem;
+            } 
+             
+          }
+          
+  
+  
+          @media screen and ( max-width: 1024px) {
+          
+            .hero #vehiicale{
+              width: 23rem;
+              border:nones;
+            }
+            .container-fluid{
+              padding: 3rem;
+              padding: 3rem;
+            }
+            .we-work img{
+              height:6rem;
+              width: 6rem;
+            }
+            h1{
+              color: var(--white);
+              font-size: 6rem;
+              font-weight: 700;
+            }
+            .client-say img{
+              height: 4rem;
+              width: 4rem;
+            }
+            .card .popular-btn{
+              padding: 1rem 2rem 1rem 2rem;
+            }
+            .btn4{
+              font-size: 1.2rem;
+              padding: 1rem 2rem 1rem 2rem !important;
+              font-weight: 600;
+            }
+            .hero h1{
+              font-size: 2rem;
+             }
+             .hero p{
+              font-size: 1.6rem;
+             }
+             .hero  {
+              padding-bottom: 10rem;
+             }
+             .hero .swiper-slide img{
+              padding-bottom: 10rem;
+             }
+                .hero-left{
+                margin-top: 30rem;
+              }
+              .hero-text-right{
+                position: absolute;
+                top: 8%; 
+                left: 2%;
+              }
+              .hero .hero-text{
+                position: absolute;
+                top: -7%;
+                left: 2%;
+                width: 95%;
+              }
+              .client-say h3{
+                font-size: 1.5rem;
+              } 
+              .client-say h6 span{
+                color: var(--yellow);
+                font-size: 1.1rem;
+              } 
+   
+           
+          }
+           
+          @media screen and ( max-width: 991px) {
+            .dropdown-menu{
+              border: none !important;
+              width: max-content;
+            }          
+             h5{
+            font-size: 2rem !important;
+           }
+            .container-fluid{
+              padding: 2rem;
+              padding: 2rem;
+            }
+            .hero #vehiicale{
+              width: 12rem;
+              border:nones;
+  
+            }
+            .hero-text-right{
+              order: 1;
+            }
+            .we-work img{
+              height: 10rem;
+              width: 10rem;
+            }
+            h1{
+              color: var(--white);
+              font-size: 4rem;
+              font-weight: 700;
+            }
+            .card .popular-btn{
+              padding: 1rem 2rem 1rem 2rem;
+            }
+            /* product  */
+            .product-right .btn4{
+              padding:1rem 0.4rem 1rem 0.4rem;
+          }
+          .product-right h3 {
+            font-size: 2.3rem !important; 
+            font-weight: 700;
+        }
+        h2{
+          font-size: 2.3rem;
+        }
+        
+           
+          }
+  
+          
+          @media screen and ( max-width: 768px) {
+         .hero h1{
+          font-size: 2rem;
+         }
+         .hero p{
+          font-size: 1.6rem;
+         }
+         .hero  {
+          padding-bottom: 10rem;
+         }
+         .hero .swiper-slide img{
+          padding-bottom: 10rem;
+         }
+            .hero-left{
+            margin-top: 30rem;
+          }
+          .hero-text-right{
+            position: absolute;
+            top: 5%; 
+            left: 2%;
+          }
+          .hero .hero-text{
+            position: absolute;
+            top: -7%;
+            left: 5%;
+            width: 90%;
+          }
+          
+          .cardiport h2{
+            font-size:2.2rem ;
+          }
+  /*  */
+            .container-fluid{
+              padding: 2rem;
+              padding: 2rem;
+            }
+            .we-work img{
+              height: 10rem;
+              width: 10rem;
+            }
+            .card .popular-btn{
+              padding: 1.2 4rem 1.2rem 4rem;
+            }
+            .btn4{
+              font-size: 1.2rem;
+              padding: 1rem 2rem 1rem 2rem !important;
+              font-weight: 600;
+            }
+            .topbar1{
+              display: none;
+            }
+            .topbar h5{
+              font-size: 1.4rem;
+            }
+            .client-say h3{
+              font-size: 1.6rem;
+            } 
+            .client-say h6 span{
+              color: var(--yellow);
+              font-size: 1.2rem;
+            } 
+            .footer h6{
+               font-size: 1.8rem;
+            }
+           
+          }
+          @media screen and ( max-width: 556px) {
+            .we-work{
+              text-align: center;
+              justify-content: center;
+              align-items: center;
+            }
+            .client-say img{
+              height: 5rem;
+              width: 5rem;
+            } 
+            .topbar2{
+              display: none !important;
+            }
+            .topbar h5{
+              font-size: 1.2rem;
+            
+            }
+            .newsletter .btn{
+              position: relative;
+              right: -15rem;
+              top: 0.6rem;
+  }
+  @media screen and ( max-width: 556px) {
+    h2{
+      font-size: 3rem;
+      font-weight: 700;
+    }
+    /*  */
+    .hero h1{
+      font-size: 1.8rem;
+     }
+     .hero p{
+      font-size: 1.5rem;
+     }
+     .hero  {
+      padding-bottom: 5rem;
+     }
+    
+        .hero-left{
+        margin-top: 30rem;
+      }
+      .hero-text-right{
+        position: absolute;
+        top: 5%; 
+        left: 2%;
+      }
+      .hero .hero-text{
+        position: absolute;
+        top: -7%;
+        left: 5%;
+        width: 90%;
+      }
+      .qoute-about p{
+        font-size: 3rem;
+        color: var(--black);
+      }
+      .qoute-about span{
+        font-size: 3rem;
+         font-weight: 700;
+      }
+      .cardiport h2{
+        font-size:1.8rem ;
+      }
+  /*  */
+    
+    }
+    
+  }
+  @media screen and ( max-width: 425px) {
+    .newsletter .btn{
+      position: relative;
+      right: -10rem;
+      top: 0.6rem;
+    }
+  }
+  @media screen and ( max-width: 375px) {
+    .card .popular-btn{
+      padding: 1rem 2rem 1rem 2rem;
+    }
+     h5{
+            font-size: 1.8rem !important;
+           }
+    .qoute-about p{
+      font-size: 2.3rem;
+      color: var(--black);
+    }
+    .qoute-about span{
+      font-size: 2rem;
+       font-weight: 700;
+    }
+  }
+  
+          @media screen and ( max-width: 320px) {
+          
+           h5{
+            font-size: 1.8rem !important;
+           }
+            .container-fluid{
+              padding: 1rem;
+              padding: 1rem;
+            }
+            .newsletter .btn{
+              position: relative;
+              right: -5rem;
+              top: 0.6rem;
+            }
+            .client-say img{
+              height: 5rem;
+              width: 5rem;
+            }
+            /* popular  */
+            .card .popular-btn{
+              padding: 1rem 2rem 1rem 2rem;
+            }
+            .btn4{
+              font-size: 1.2rem;
+              padding: 1rem 2rem 1rem 2rem !important;
+              font-weight: 600;
+            }
+            h3{
+              font-size: 2rem !important;
+            }
+           
+            .blog-page-img-text h3 a{
+              font-size: 2rem;
+              font-weight: 700;
+              }
+              .blog-right-search{
+                margin-top: 3rem;
+              }
+              .tag-post span{
+                margin-right: 0rem;
+                margin-top: 1rem !important;
+              
+              }
+              .blog-left h5{
+                font-size: 1.2rem !important;
+                font-weight: 400;
+              }
+              .footer h6{
+                font-size: 2rem;
+                margin-top: 1rem;
+              }
+              h2{
+                font-size: 2rem;
+                font-weight: 700;
+              }
+              .genuine-parts h1{
+                font-size: 5rem;
+                
+              }
+              .team-support h2{
+                font-size: 3.5rem;
+                color: var(--white);
+              }
+              .img-part h1{
+                font-size: 2.5rem;
+              }
+              .social-media h4 span{
+                margin-right: 0.0rem;}
+                .footer span{
+                  margin-right: 0rem;
+                  font-size: 1.6rem;
+                }
+                .qoute-about p{
+                  font-size: 2.3rem;
+                  color: var(--black);
+                }
+                .qoute-about span{
+                  font-size: 2rem;
+                   font-weight: 700;
+                }
+                .topbar h5{
+                  font-size: 1rem;
+                }
+                .product-right h3 {
+                  font-size: 1.8rem !important; 
+                  font-weight: 700;
+              }
+              .review-star span{
+                font-size: 1.2rem !important;
+            }
+          }
+  
+          

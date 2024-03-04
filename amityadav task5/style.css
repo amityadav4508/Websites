@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background:var(--body-bg-color); */
+    color:var(--big-text-color) ;
+}
+
+/* preloader */
+#preloader{
+    background: #191919 url('images/asset\ 57.gif') no-repeat center;
+    background-size: 15%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+
+}
+
+/* end preloader */
+body{
+    background:var(--body-bg-color);
+
+}
+a{
+    text-decoration: none;
+    color: var(--small-text-color);
+}
+html{
+    font-size: 10px;
+}
+:root{
+    --big-text-color:#ffffff;
+    --small-text-color:#d1d0cf;
+    --body-bg-color:#191919;
+    --btn-red-bg-color:#e50914;
+    --big-btn-bg-color:#23272b;
+    -feature-bg-color:#1e2024;
+}
+
+h1{
+    margin-top: 3rem;
+    font-size: 4.5rem;
+    line-height: 6rem;
+    font-weight: 700;
+}
+p{
+    margin-top: 2rem;
+    font-size: 2rem;
+    line-height: 3rem;
+    font-weight: 500;
+}
+.h1-bg{
+    background: linear-gradient(90deg, #D60404 2%, rgba(206, 29, 29, 0.61) 1%, rgba(169, 148, 148, 0.01) 75%); 
+height: 7rem;
+    
+}
+/* header section start  */
+.header{
+    background-color: var(--body-bg-color);
+}
+.nav-top{
+    margin-top: 0.5rem;
+}
+.container-fluid{
+    margin-top: 2rem;
+    margin-left: 1.5rem;
+    margin-right: 2.5rem;   
+}
+.brand-icon  img{
+    width: 15rem;
+}
+.document-btn{
+    margin-top: 2rem;
+} 
+.btn1{
+    border: 0.15rem solid var(--btn-red-bg-color);
+    color: var(--btn-red-bg-color);
+    padding: 1.5rem;
+    width: auto;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+/* hero section  */
+
+.custom-container{
+    margin-top: 7rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    
+}
+
+.hero-right img{
+    padding: 1.7rem;
+    width: 35rem;
+    height: 9rem;
+    margin-right: 10rem;
+    background: linear-gradient(90deg, #D60404 2%, rgba(206, 29, 29, 0.61) 1%, rgba(169, 148, 148, 0.01) 75%); 
+}
+.hero-right-text h1{
+    text-shadow: 2px 2px 4px #c51010;
+    line-height: 6.7rem;
+}
+.hero-right-btn2{
+    margin-top: 4.5rem;
+}
+.btn2{
+    color: var(--big-text-color);
+    background-color: var(--btn-red-bg-color);
+    padding: 1.7rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+.watch-trailer{
+    margin-top: 13rem;
+    margin-left: 3rem;
+}
+.watch-trailer-btn{
+letter-spacing: 0.2rem;
+font-size: 2.5rem;  
+  font-family: 600;;
+}
+/* hero right side  */
+.hero-left-img img{
+    padding: 5rem;
+    align-items: center;
+}
+/* header section end  */
+
+/* course -icon- slider  */
+.main-icon{
+    margin-bottom: 5rem;
+}
+
+/* end course icon slider */
+
+/* start project poster  */
+
+.project-img .card{
+    height: 100%;
+    min-height: 35rem;
+    overflow: hidden;
+    border: 1px solid var(--bg-white);
+    cursor: pointer;
+
+}
+.project-img .card span{
+    transition: background-position 1s ease-in-out 0s;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: top center;
+}
+.project-img .card:hover span{
+    background-position: bottom center;
+    
+}
+
+.big-btn{
+    background-color:var(--big-btn-bg-color);
+        width: 100%;
+        font-size: 2rem;
+        font-weight: 500;
+        padding: 1.4rem;
+        border-radius: 0.3rem;
+}
+.project-btn:hover a{
+    color: var(--btn-red-bg-color);
+}
+/* end poster project  */
+.enjoy-line{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    background-color: var(--big-btn-bg-color);
+    /* height: 12rem; */
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+    
+}
+
+/* start product seciton  */
+.products{
+    margin-top: 8rem;
+    margin-bottom: 5rem;
+}
+.product-img img{
+    border: 0.1rem solid var(--btn-red-bg-color);
+}
+
+
+/* mobile2   responsive section*/
+.mobile2 img{
+    padding: 4rem;
+}
+.mobile-text{
+    text-align: start;
+}
+.mobile-text .h1-bg{
+    position: relative;
+    right: 23rem;
+}
+.mobile-text{
+    margin-top: 27rem;
+}
+
+.rtl-img {
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+}
+
+/* featurs  */
+.card-img {
+    background-color: gray;
+}
+.card-img img{
+    width: 40px;
+    height: 40px;
+}
+
+
+.featurestext{
+    margin-top: 2rem;
+    background-color: var(--big-btn-bg-color);
+}
+
+
+.featurestext span{
+    font-size: 2rem;
+}
+
+.card2{
+    background-color: var(--big-btn-bg-color);
+    padding: 2rem;
+    transition: 0.5s ease-in;
+
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+    gap: 1.5rem;
+}
+.card2:hover{
+    transform: translateY(-0.5rem);
+}
+
+.footer-img{
+    padding: 15rem;
+    background-image: url('images/asset\ 56.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

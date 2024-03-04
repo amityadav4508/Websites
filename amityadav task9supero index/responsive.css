@@ -1,0 +1,108 @@
+
+
+
+.swiper {
+  width: 100%;
+  height: 100%;
+  z-index: -6;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+}
+
+.top-company  .swiper-slide img {
+  display: block;
+  width: 20%;
+  height: 20%;
+  border-radius: 50%;
+  object-fit: cover;
+} 
+.top-company .swiper-slide {
+  text-align: center;
+  font-size: 1.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 6rem;
+  margin-top: 2rem;
+}
+
+/* testimonial css */
+
+.testimonial .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.testimonial .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonial .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.testimonial .swiper-pagination-bullet {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 12px;
+  color: #000;
+  opacity: 6;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.testimonial .swiper-pagination-bullet-active {
+  color: #fff;
+  background: #007aff;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .hero-img, .hero-img2 {
+      display: none;
+    }
+    
+  }
+  @media screen and (max-width: 991px) {
+    .hero-form-text{
+    border: none; 
+    box-shadow: none;   
+    }
+    .hero-form-text2 .btn{
+     width: 100%;
+     margin-top: 1rem;
+    
+  }
+  .job-featured  .fbtn4{
+  
+    right: 2rem;
+  
+  }
+  .application .card{
+    margin-bottom: 3rem;
+ 
+  }
+}
+ 

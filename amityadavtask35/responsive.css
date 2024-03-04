@@ -1,0 +1,248 @@
+
+
+@media screen and (max-width:1050px) {
+    .container-fluid{
+        padding-left: 3rem;
+        padding-right: 3rem; 
+    }
+    .nav-link{
+        margin-left: 1rem;
+        margin-right: 0rem;
+      } 
+    .cart-btn{
+        margin-left: 1.5rem;
+        padding: 0.8rem 1rem 0.8rem 1rem;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .hero-left{
+        display: none;
+    }
+    .rating span i{
+      color: var(--yellow) ;
+      font-size: 1rem;
+     }
+     .rating p{
+      font-size: 1.2rem;
+
+     }
+
+}
+
+@media screen and (max-width:768px) {
+  .toast{
+    display: none;
+  }
+    .container-fluid{
+        padding-left: 1rem !important;
+        padding-right: 1rem !important; 
+    }
+    .nav-link{
+        margin-left: 1rem;
+        margin-right: 0rem;
+      } 
+    .cart-btn{
+        margin-left: 1.3rem;
+        padding: 0.8rem 1rem 0.8rem 1rem;
+      }
+      .hero-right h1{
+        font-size: 4.6rem;
+        letter-spacing: 0.1rem;
+        line-height: 4.8rem;
+      }
+      h3{
+        font-size: 1.8rem;
+        font-weight: 600;
+        color: var(--black-light);
+        margin-top: 2rem;
+        margin-bottom: 1.5rem;
+      }
+      h3 span{
+        font-size: 1.8rem;
+        font-weight: 600;
+        color: var(--dark-pink);
+      }
+      .play-btn span i{
+        font-size: 1.4rem;
+        padding: 1rem 1.1rem 1rem 1.4rem;
+        animation: playBtn 2s 2s  linear forwards, rays 0s 0s infinite linear;
+      }
+      .copyright{
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+      }
+      h2{
+        font-size: 2.6rem;
+      }
+
+  .timer p {
+        position:absolute;
+        font-size: 1.4rem;
+}
+ p{
+    font-size: 1.4rem !important;
+  }
+  .new-offer h1{ 
+    font-size: 1.5rem;
+
+  }
+  .new-offer h4{ 
+    font-size: 1.1rem;
+
+  }
+  .new-offer .card .fashion-text{
+    position: relative;
+    top: 1rem;
+  }
+
+
+
+}
+
+
+@media screen and (max-width:580px) {
+  .toast-body{
+    display:none;
+  }
+  .hero-right  {
+    width: 100% !important;
+    background-image: url(images/asset\ 17.jpeg);
+    background-position:left;
+    background-repeat: no-repeat;
+    background-size: 176% 100%;
+    padding: 12rem 4rem 14rem 4rem;
+  }
+  h2{
+    font-size: 2rem;
+  }
+  .hero-right h1{
+    font-size: 3.8rem;
+    letter-spacing: 0.1rem;
+    line-height: 4rem;
+  }
+  h4{
+    font-size: 1rem;
+    font-weight: 800;
+    color: var(--black-light);
+    line-height: 2rem;
+    letter-spacing: 0.2rem;
+
+  }
+  .play-btn span i{
+    font-size: 1.2rem;
+    padding: 0.9rem 1rem 0.9rem 1.2rem;
+    animation: playBtn 2s 2s  linear forwards, rays 0s 0s infinite linear;
+  }
+  .deals-left  h3{
+    color: var(--white);
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .copyright img{
+    height: 1.8rem;
+  }
+
+ 
+ 
+}
+@media screen and (max-width:450px) {
+    .icon-link img{
+        height: 1.6rem;
+        }
+        .hero-right h1{
+          font-size: 2.8rem;
+          letter-spacing: 0.1rem;
+          line-height: 3rem;
+        }
+        .fashion h1{
+          font-size: 1.8rem ;
+          margin-bottom: 0rem;
+        }
+        .fashion h4{
+          letter-spacing: 0.0rem;
+          margin-top: 0.5rem;
+        }
+        .icon-link  i{
+            font-size: 1.3rem !important;
+            padding: 0rem 1.4rem 0rem 0rem;
+          }
+        .nav-right .nav-link{
+            font-size: 1.3rem ;
+    
+          }
+          .cart-btn{
+            margin-left: 1.5rem;
+            padding: 0.8rem 0.5rem 0.8rem 0.5rem;
+        }
+
+
+        .fashion-text{
+          color: var(--white);
+        background-color: var(--black-opacity);
+        width: 90%;
+        position: absolute;
+        bottom: 3rem;
+        left: 5%;
+        padding: 1rem 0rem 0.5rem 0rem;
+        }
+        .copyright img{
+          height: 1.6rem;
+        }
+      }
+        
+
+@media screen and (max-width:360px) {
+     .cart-btn .nav-link  strong{
+       display: none;
+      }
+      .cart-btn{
+        margin-left: 1rem;
+        padding: 0.4rem 0rem 0.4rem 0rem !important;
+    }
+    .w3-badge {
+        background-color: var(--dark-pink);
+        position: absolute;
+        top: -0.7rem;
+        left: 1.8rem;
+        border-radius: 50%;
+        padding: 0rem 0.5rem 0rem 0.5rem;
+      }
+
+      .icon-link b{
+        font-size: 1.2rem;
+        font-weight: 300;
+        color: var(--white);
+      }
+      .icon-link  i{
+        font-size: 1.1rem !important;
+        padding: 0rem 1rem 0rem 0rem;
+      }
+      .fashion h1{
+        font-size: 1.6rem ;
+        margin-bottom: 0rem;
+      }
+      .fashion h4{
+      font-size: 0.8rem;
+      }
+}
+
+
+@media screen and (max-width:320px) {
+.fashion-text{
+  color: var(--white);
+background-color: var(--black-opacity);
+width: 90%;
+position: absolute;
+bottom: 1rem;
+left: 5%;
+padding: 0.5rem 0rem 0rem 0rem;
+}
+.copyright img{
+  height: 1rem;
+}
+.copyright p{
+  font-size: 1.4rem;
+}
+}

@@ -1,0 +1,345 @@
+:root{
+  --white:#ffffff;
+  --red:#ff5552;
+  --black:#000000;
+  --sky-blue:#55acee;
+  --text-color:#878787;
+  --light-black:#202020;
+
+}
+
+
+@media screen and  (min-width: 992px) {
+    .nav2{
+        display: none;
+    }
+    .social-icon2{
+      display: none;
+    }
+  }
+
+@media screen and  (max-width: 991px) {
+  .navbar{
+    z-index: 99;
+    width: 100%;
+    padding: 0.8rem 0rem 0.8rem 0rem;
+
+  }
+  .navbar-nav1{
+    visibility: hidden;
+}
+.navbar-brand{
+position: relative;
+left: 29rem;
+}
+.navbar-brand{
+  width: 35rem;
+  padding: 0.8rem 0rem 0.8rem 0rem;
+  height: 5rem;
+}
+
+.navbar-brand  .img-fluid {
+  max-width: 20rem;
+  height: 3.5rem;
+}
+.social-icon2{
+visibility: hidden;
+}
+
+/* -------- */
+.hero-wrapper{
+  position: relative;
+  top: -17rem;
+}
+    .hero-wrapper h1{
+        font-size: 3rem;
+      }
+      .hero-wrapper h1 span{
+        font-size: 3rem;
+    
+      }
+      .hero-wrapper h2{
+        font-size: 4rem;
+      }
+      .hero-wrapper h2 span{
+        font-size: 4rem;
+   
+      }
+      .hero-text{
+        position: absolute  ;
+        bottom: 5%;
+        left: 20%;
+      }
+      .value {
+        font-size: 5.5rem;
+        display: block;
+        font-weight: bold;
+        color: var(--red);
+      }
+      .price{
+        width: 10rem;
+        height: 10rem;
+        border-radius: 50%;
+        padding: 0.5rem;
+      border: 0.1rem solid var(--black);
+      position: relative;
+      left: 12rem;
+      }
+  
+}
+
+@media screen and  (max-width: 767px) {
+   
+  .navbar{
+    z-index: 99;
+    width: 100%;
+  }
+  .navbar-brand  .img-fluid {
+    max-width: 28rem;
+    height: 2.8rem;
+  }
+  .navbar-nav1{
+    visibility:visible;
+    position: relative;
+    background-color: white;
+    width: fit-content;
+    padding: 1rem 3rem 1rem 3rem;
+    margin-bottom: 1rem;
+}  
+
+.nav-link{
+  font-size: 1.2rem;
+  color: var(--light-black) !important;
+  margin-bottom: 1rem;
+}
+.dropdown-menu{
+  background-color: var(--white);
+}
+.dropdown-item{
+  color: var(--red);
+ margin-bottom: 1rem;
+ padding: 0.3rem;
+
+}
+.navbar-brand{
+  position: relative;
+  left: 0rem;
+  
+  }
+.social-icon{
+  display: none;
+}
+.social-icon2{
+  visibility: visible; 
+} 
+.social-icon2 .nav-link{
+  color: var(--white) !important;
+}
+       .nav2{
+        display: none;
+       }    
+       .social-icon2 {
+        visibility: visible;
+        display: flex;
+        flex-direction: row;
+}
+.nav-link2:hover::before{
+  content: "";
+  position:absolute;
+  width: 100%;
+}
+.navbar-brand{
+  width: 35rem;
+  filter: brightness(100%);
+  padding: 2rem 0rem 0.8rem 0rem;
+  height: 6rem;
+}
+  /*  */
+  .hero-wrapper{
+    position: relative;
+    top: -12rem;
+    z-index: -1;
+  }
+  .hero-text{
+    position: absolute  ;
+    bottom: 3%;
+    left: 20%;
+    padding-bottom: -10rem;
+  }
+        .value {
+            font-size: 4rem;
+            display: block;
+            font-weight: bold;
+            color: var(--red);
+          }
+
+          .price{
+            width: 10rem;
+            height: 10rem;
+            border-radius: 50%;
+            padding: 0.5rem;
+          border: 0.1rem solid var(--black);
+          position: relative;
+          left: 40%;
+          }
+
+          .hero-wrapper .hero-text .btn1{
+            border: 0.1rem solid var(--white);
+            width: 5rem;
+            padding: 1rem 1.8rem 1rem 1.8rem;
+            color: var(--white);margin: 1rem ;
+            font-size: 1.2rem;
+            text-transform: uppercase;
+          }
+}
+
+@media screen and (max-width: 600px) {
+  .hero-text{
+    position: absolute  ;
+    bottom: 2%;
+    left: 15%;
+    /* padding-bottom: -10rem; */
+  }
+
+  .navbar-brand  .img-fluid {
+    max-width: 14rem;
+    height: 2.5rem;
+  }
+  .navbar-brand{
+    width: 20rem;
+    filter: brightness(100%);
+    padding: 0.4rem 0rem 0.4rem 0rem;
+    height: 4rem;
+  }
+ 
+
+  .hero-wrapper h1{
+    font-size: 2rem;
+  }
+  .hero-wrapper h1 span{
+    font-size: 2rem;
+
+  }
+  .hero-wrapper h2{
+    font-size: 3rem;
+  }
+  .hero-wrapper h2 span{
+    font-size: 3rem;
+
+  }
+  .hero-wrapper .hero-text .btn1{
+    border: 0.1rem solid var(--white);
+    width: 5rem;
+    padding: 0.8rem 1.8rem 0.8rem 1.8rem;
+    color: var(--white);margin: 1rem ;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+  }
+  .hero-wrapper .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 140%;
+    object-fit: cover;
+    filter: brightness(60%);
+  }
+
+  .hero-wrapper{
+    position: relative;
+    top: -7rem;
+  }
+
+  
+}
+
+@media screen and (max-width: 425px) {
+ 
+  .hero-text{
+    position: absolute  ;
+    bottom: -4%;
+    left: 15%;
+    /* padding-bottom: -10rem; */
+  }
+  .hero-wrapper{
+    position: relative;
+    top: -5rem;
+  }
+
+  .navbar-brand  .img-fluid {
+    max-width: 12rem;
+    height: 2.2rem;
+  }
+  .navbar-brand{
+    width: 17rem;
+    filter: brightness(100%);
+    padding: 0.4rem 0rem 0.4rem 0rem;
+    height: 3.5rem;
+  }
+ 
+
+  .hero-wrapper h1{
+    font-size: 1.8rem;
+  }
+  .hero-wrapper h1 span{
+    font-size: 1.8rem;
+
+  }
+  .hero-wrapper h2{
+    font-size: 2.6rem;
+  }
+  .hero-wrapper h2 span{
+    font-size: 2.6rem;
+
+  }
+  .hero-wrapper .hero-text .btn1{
+    border: 0.1rem solid var(--white);
+    width: 4rem;
+    padding: 0.5rem 1.4rem 0.5rem 1.4rem;
+    color: var(--white);
+   
+    margin-right: 1rem ;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+  }
+  .pricing span{
+    font-size: 2.8rem;
+   
+  }
+  .price{
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  padding: 0.5rem;
+border: 0.1rem solid var(--black);
+position: relative;
+left: 8rem;
+}
+ 
+}
+.pricing span{
+  font-size: 2.8rem;
+ 
+}
+@media screen and (max-width: 375px) {
+
+  .price{
+    width: 7em;
+    height: 7rem;
+    border-radius: 50%;
+    padding: 0.5rem;
+  border: 0.1rem solid var(--black);
+  position: relative;
+  left: 7rem;
+  }
+
+}
+@media screen and (max-width: 320px) {
+   .price{
+  width: 7em;
+  height: 7rem;
+  border-radius: 50%;
+  padding: 0.5rem;
+border: 0.1rem solid var(--black);
+position: relative;
+left: 4rem;
+}
+}

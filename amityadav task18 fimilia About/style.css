@@ -1,0 +1,495 @@
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+  .body{
+    background-color: var(--white);
+  }
+html{
+  font-size: 10px;
+}
+
+/* pre looader */
+#preloader{
+  background:#000  url('images/Rolling.gif') no-repeat center;
+  background-size: 15%;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+/* end preloooader */
+button{
+  background-color: var(--red);
+
+}
+button span{
+  color: var(--red) !important;
+  font-size: 3rem;
+}
+
+h1{
+  font-size: 3.5rem;
+  text-transform: uppercase;
+}
+/* end top button  */
+:root{
+  --white:#ffffff;
+  --red:#ff5552;
+  --black:#000000;
+  --sky-blue:#55acee;
+  --text-color:#878787;
+  --light-black:#202020;
+
+}
+/* start header sections  */
+
+/* end header sections */
+p{
+  font-size: 1.7rem;
+  color: var(--text-color);
+}
+
+.navbar{
+  padding: 2rem 0rem 0.8rem 0rem;
+  background-color:rgba(0, 0, 0, 0.578);
+  
+}
+.navbar-brand{
+  width: 35rem;
+  filter: brightness(100%);
+  padding: 2rem 0rem 0.8rem 0rem;
+
+  height: 7rem;
+}
+.nav-link{
+  font-size: 1.5rem ;
+  font-weight: 400;
+  position: relative;
+  color:var(--white);
+  text-transform: uppercase;
+  padding: 0rem 0.5rem 0rem 0.5rem;
+  margin-right: 1rem;
+}
+.nav-link:hover{
+  color: var(--red);
+}
+.nav-link2::before{
+  content: "";
+  position:absolute;
+  width: 0rem;
+  height: 0.1rem;
+  z-index: 1;
+  background-color: var(--red);
+  bottom: 0;
+  transition: 0.5s;
+}
+.nav-link2:hover::before{
+  content: "";
+  position:absolute;
+  width: 6rem;
+  height: 0.1rem;
+  z-index: 1;
+  background-color: var(--red);
+  bottom: 0;
+}
+nav ul li:hover> ul{
+  display: block;
+}
+/* navbar menu  */
+ 
+
+
+.dropdown-menu{
+  border: none;
+  border-radius: none;
+  background-color: black;
+  width:max-content;
+  color: var(--red);
+  padding-top: 0;
+  padding-bottom:0 !important;
+}
+.dropdown-menu a{
+     font-size: 1.4rem;
+     color: var(--red) !important;
+}
+.dropdown-item{
+  color: var(--red);
+ text-transform: uppercase;
+ margin-bottom: 1rem;
+ padding: 0.8rem 3rem 0.8rem 3rem;
+}
+.dropdown-item:hover{
+  background-color: var(--white);
+  color: var(--red)!important;
+}
+.about{
+  padding-top: 4rem;
+ position: absolute;
+  top: 0;
+  background-image: linear-gradient(15deg, 
+  rgba(0,0,0, 0.4), rgba(0,0,0, 0.4)), url('images/asset\ 0.jpeg');
+  background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+  padding-bottom: 16rem;
+  background-attachment: fixed;
+
+}
+a{
+  text-decoration: none;
+}
+.text-about-sec{
+  margin-top: 10rem;
+}
+
+.about h1{
+  font-size: 5rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: var(--white) !important;
+  letter-spacing: 0.1rem;
+
+}
+.about h1 span{
+  font-size: 5rem;
+  font-weight: 400;
+  color: var(--red);
+
+}
+.about p,a{
+  color: var(--white)!important;
+  font-weight: 400;
+  font-size: 2.3rem;
+}
+
+/* end header  */
+h4{
+  font-size: 2.3rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: var(--black);
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+.who-we h4:hover{
+  color: var(--red);
+}
+.who-we span{
+  font-size: 5.5rem;
+  color: var(--red);
+  
+}
+/* about skill  */
+.about-skill{
+ margin-top: 48rem;
+  padding-bottom: 3rem;
+  background: url(images/asset\ 29.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+.about-skill img{
+  position: relative;
+  top: -11rem;
+}
+.skills{
+  position: relative;
+  bottom: 3rem;
+}
+h3 span{
+  font-size: 2.5rem;
+  color: var(--red);
+  text-transform: uppercase;
+}
+.about-skill .img-text h3{
+  font-weight: 700;
+  font-size: 2rem;
+}
+.about-skill .img-text span{
+  font-weight: 700;
+  font-size: 2rem;
+}
+.about-skill h2{
+margin-bottom: 0;
+}
+.about-skill p{
+  position: relative;
+  top: 4rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 1.5rem;
+  color: var(--black);
+  font-weight: 500;
+}
+.about-skill h5{
+  position: relative;
+  width: 5.5rem;
+  left: 75%;
+  top: 1rem;
+  border-radius: 0.7rem;
+  padding: 0.2rem 1rem 0.2rem 1.5rem ;
+  font-size: 1.3rem;
+  background-color: var(--black);
+  color: white;
+}
+.progress-bar{
+  background-color: var(--red);
+}
+.skills h5:nth-child( 1){
+  position: relative;
+  left: 85%;
+}
+.skills h5 :nth-child(3){
+  position: relative;
+  left: 95%;
+}
+aria-valuenow{
+  background-color: var(--light-black);
+}
+h3{
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.about-skill .img-text{
+  position: relative;
+  top: -8rem;
+}
+.about-text{
+  padding: 2rem;
+}
+
+/* project counter  section  */
+.number-counter{
+  background-color: var(--light-black);
+  padding: 8rem 8rem; 
+}
+.number-counter h5{
+   font-size: 2rem;
+   font: 600;
+   color: var(--white);
+   text-transform: uppercase;
+}
+.value {
+  font-size: 7rem;
+  display: block;
+  font-weight: bold;
+  color: var(--red);
+}
+/* ----------------------------------------- */
+h5{
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: var(--black);
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+h5 span{
+color: var(--red);
+}
+
+/* team  */
+.team {
+  padding: 6rem 6rem;
+}
+.team p{
+  color: var(--light-black);
+}
+.team .card{
+  border: none;
+  background-color:rgba(214, 214, 214, 0.445);
+
+}
+.team  .card h5{
+  text-transform: uppercase;
+  font-size: 2.2rem;
+}
+.team-card{
+  position: relative;
+}
+.team-icon{
+  position: absolute;
+  top: 35%;
+  font-size: 2rem;
+  left: 27%;
+  opacity:0;
+  transform: translateY(-20rem);
+  transition: 0.5s;
+  color: var(--white);
+}
+.team-icon span{
+ margin: 0.5rem;
+}
+.team-card:hover> .team-icon{
+  opacity: 1;
+  transform: translateY(0rem);
+
+}
+.team-card:hover> img{
+  filter: brightness(49%);
+}
+
+
+/* testimonial sections  */
+.testimonial{
+  background: url(images/asset\ 30.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 8rem 8rem;
+}
+.testimonial-right{
+  margin-top:5rem ;
+
+}
+.testimonial-right img{
+/* width: 100%; */
+height: 7.8rem;
+}
+.testimonial .swiper-slide img{
+  border-radius: 50%;
+  /* height: 80%; */
+  border: 0.3rem solid var(--red);
+}
+.testimonial h3{
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.8rem;
+  margin-top: 1rem;
+}
+.testimonial  .swiper-slide h5{
+  font-size: 2rem;
+  font-weight: 400;
+}
+/* .social-media section */
+
+.social-media-icon{
+  font-size: 2rem;
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+  color: var(--white);
+  cursor: pointer;
+}
+.social-media-icon div:nth-child(1){
+  background-color: rgb(6, 60, 122);
+ padding: 4rem 4rem;
+}
+.social-media-icon div:nth-child(2){
+  background-color: rgba(11, 152, 207, 0.942);
+ padding: 4rem 4rem;
+}
+.social-media-icon div:nth-child(3){
+  background-color: rgba(22, 126, 187, 0.979);
+ padding: 4rem 4rem;
+}
+.social-media-icon div:nth-child(4){
+  background-color: rgba(209, 35, 12, 0.979);
+ padding: 4rem 4rem;
+}
+.social-media-icon div:nth-child(5){
+  background-color: rgba(230, 62, 202, 0.979);
+ padding: 4rem 4rem;
+}
+.social-media-icon div:nth-child(6){
+  background-color: rgba(243, 80, 15, 0.979);
+ padding: 4rem 4rem;
+}
+
+
+
+/* footer setion start */
+.footer{
+  background: url(images/asset\ 30.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 6rem 6rem;
+}
+.footer h4{
+  font-size: 1.8rem;
+}
+.footer p{
+  color: var(--light-black);
+  margin-top: 3rem;
+  text-transform: capitalize;
+  font-size: 1.4rem;
+
+}
+.footer .footer-brand span{
+  color: var(--red);
+  margin-right: 2rem;
+}
+
+.footer .twitter a{
+  color: var(--sky-blue) !important;
+  font-size: 1.4rem;
+}
+.footer .twitter  span,a{
+  color: var(--sky-blue);
+}
+.footer .newsletter p{
+  line-height: 3rem;
+}
+.footer input {
+  padding: 1rem;
+  border: 0.2rem solid var(--light-black);
+}
+ /* #btn-sub a{
+color: var(--light-black) !important;
+} */
+.btn-sub{
+  color: black !important;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  padding: 0.8rem 3rem 0.8rem 3rem ;
+  border: 0.1rem solid var(--light-black);
+}
+.btn-sub:hover{
+  background-color: var(--red);
+  border: none;
+}
+::placeholder{
+  font-size: 1.5rem;
+}
+
+.bottom-footer{
+  padding: 3rem 3rem;
+  background-color: var(--light-black);
+}
+.bottom-footer p{
+  font-size: 1.6rem;
+  color: var(--white);
+  font-weight: 400;
+}
+.bottom-footer p span{
+  color: var(--red);
+}
+/* end footer section  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

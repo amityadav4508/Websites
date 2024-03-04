@@ -1,0 +1,351 @@
+html{
+    font-size: 10px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+p{
+   font-size: 1.6rem;   
+}
+h2{
+   font-size: 4.5rem;
+}
+.blogs-hero {
+    text-align: center;
+
+    background-image:url(images/blogs/asset\ 19.jpeg);
+    height: 61vh;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.blogs-hero h1{
+    font-size: 4rem;
+}
+.blogs-hreo-text{
+    margin-top: 15rem;
+    font-size: 2rem;
+}
+.blogs-hero span a{
+    color: red;
+}
+ /* hero main section-left start  */
+ .blog-main-left{
+    margin-top: 10rem;
+    padding: 1rem;
+ }
+ .blog-left-text{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+ }
+ .blog-main-left h1{
+    font-size: 4rem;
+    font-weight: 400;
+ }
+ .blog-main-left p{
+    font-size: 1.8rem;
+    
+ }
+ .blog-main-left li{
+    list-style: none;
+   
+ }
+ .blog-main-left li a{
+    color: white;
+    font-size: 1.8rem;
+ }
+ .blog-main-left span{
+    margin: 0.2rem;
+ }
+ .blog-main-left span a{
+    background-color: gray;
+    padding: 0.3rem;
+    border-radius: 0.1rem;
+    color: white;
+    font-size: 1.6rem;
+  
+ }
+ .blog-main-left .adminbtn li a{
+    color: white;
+    padding: 0.7rem;
+    padding-right: 50px;
+    font-size: 1.8rem;
+    margin-left: 0.5rem;
+    background: linear-gradient(90deg, #D60404 0%, rgba(208, 32, 32, 0.61) 3%, rgba(169, 148, 148, 0.05) 85%); 
+}
+
+.blog-left-btn li a{
+    color: white;
+    padding: 0.8rem;
+    border-radius: 0.1rem;
+    font-size: 1.7rem;
+    margin-left: 0.5rem;
+background-color: red;
+}
+
+.blog-main-left li {
+    font-size: 2em;
+    
+}
+
+    /* hero main section left end  */
+
+
+ /* hero main Right seciton start  */
+ .hero-main-right{
+    margin-top: 10rem;
+    padding: 2rem;
+    background-color: rgb(25, 23, 23);
+ }
+ .hr-1{
+    border: 0.3rem solid rgb(211, 211, 211);
+  
+   
+ }
+ .hr-2{
+    border: 0.3rem solid rgb(211, 211, 211);
+   margin-top: 4rem;
+   margin-bottom: 4rem;
+ }
+ .hr-3{
+    border: 0.1rem solid rgb(211, 211, 211);
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+ }
+ .hr-4{
+    border: 0.0009rem solid rgb(114, 112, 112);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+ }
+.right-search{
+margin:5rem 7rem;
+
+}
+ .right-search input{
+    font-size: large;
+    width: calc(70%-2rem);
+    border: none;
+    color: rgb(11, 8, 8) !important;
+    background-color: gray;
+    padding: 1rem;
+
+ }
+ .right-search span {
+    position: relative;
+    right: 0.2rem;
+    font-size: large;
+    background-color: red;
+   width: 6rem;
+   padding: 1rem;
+ }
+ .blog-right-container{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding: 1rem;
+    border-radius: 0.4rem;
+    background-color: rgb(30, 26, 26);
+ }
+ .blog-right-container li a{
+    font-size: 1.8rem;
+    font-weight: 400;
+color: white;
+ }
+ .blog-right-container li{
+    list-style: none;
+ }
+ .blog-right-container span{
+
+    margin: 0.3rem;
+   
+ }
+ .blog-right-container span a{ 
+    color: white;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+    border-radius: 0.1rem;
+    background-color: red;
+
+    font-size: 2rem;
+    font-weight: 400;
+ }
+ .calender img{
+    height: 9rem;
+
+ }
+ .blog-right-recent-post{
+    color: red;
+    font-size: 1.5rem;
+ }
+ /* hero main rtight section end  */
+
+
+
+
+ /* contact section start  */
+ .contact-hero {
+   text-align: center;
+
+   background-image:url(images/blogs/asset\ 19.jpeg);
+   height: 61vh;
+   background-position:center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.contact-hero h1{
+   font-size: 4rem;
+}
+.contact-hreo-text{
+   margin-top: 15rem;
+   font-size: 2rem;
+}
+.contact-hero span a{
+   color: red;
+}
+/* start address  */
+.contact{
+   margin-top: 6rem;
+   margin-bottom: 6rem;
+}
+.address h4{
+   font-size: 5rem;
+   font-weight: 400;
+}
+.address span{
+   font-size: 2.2rem;
+   font-weight: 400;
+   color: #D60404;
+}
+.address p{
+    font-size: 1.6rem;
+    
+}
+.address-main{
+   box-shadow: 0.03rem 0rem 0 0  white;
+}
+.hr-3{
+   color: white;
+   font-size: 0.06rem;
+   margin-top: 8rem;
+   margin-bottom: 8rem;
+}
+
+.contact2{
+   padding: 1rem;
+}
+
+
+.contact-us input{
+   background-color:  #191717;;
+   font-size: 1.5rem;
+padding: 0.8rem;
+border: 0.001rem solid rgb(236, 233, 233);
+
+color: wheat !important;
+}
+.contact2 textarea{
+   background-color:  #191717;;
+   font-size: 1.5rem;
+padding: 0.8rem;
+border: 0.001rem solid rgb(236, 233, 233);
+color: wheat !important;
+}
+
+.btn-contact a{
+   font-size: 1.7rem;
+   color: white;
+}
+.btn-contact a:hover{
+   background-color: red;
+}
+.btn{
+   padding: 1rem 2rem 1rem 2rem;
+   background-color: red;
+
+}
+
+
+/* faq start  */
+/* accordione  */
+.main-faq{
+   margin-top: 10rem;
+   margin-bottom: 10rem;
+}
+h1{
+   text-align:center;
+}
+input {
+   position: absolute;
+   opacity: 0;
+   z-index: -1;
+}
+.accordion-wrapper {
+   border-radius:0.8rem;
+   overflow: hidden;
+   box-shadow: 0 0.4rem 0.4rem -0.2rem rgba(0, 0, 0, 0.5);
+   margin:0 auto;
+}
+.accordion {
+   width: 100%;
+   color: white;
+   overflow: hidden;
+   margin-bottom: 1.6rem;
+ 
+}
+.accordion:last-child{
+   margin-bottom: 0;
+}
+.accordion-label {
+   display: flex;
+   -webkit-box-pack: justify;
+   justify-content: space-between;
+   padding: 16px;
+   background: rgba(16, 17, 17, 0.8);
+   font-weight: 400;
+   cursor: pointer;
+   font-size: 3rem;
+}
+/* .accordion-label:hover {
+   background: rgba(4,57,94,1);
+} */
+.accordion-label::after {
+   content: "+";
+   background-color: #D60404;
+padding-left: 0.5rem;
+padding-right: 0.5rem;
+  text-align: center;
+   -webkit-transition: all 0.3s;
+   transition: all 0.3s;
+}
+.accordion-content {
+   max-height: 0;
+   padding: 0 16px;
+   color: rgb(243, 243, 243);
+   background: rgba(16, 17, 17, 0.8);
+
+   -webkit-transition: all 0.3s;
+   transition: all 0.3s;
+}
+.accordion-content p{
+   margin: 0;
+   color: rgba(253, 253, 253, 0.7);
+   font-size: 1.8rem;
+}
+input:checked + .accordion-label {
+   background: rgba(16, 17, 17, 0.8);
+}
+input:checked + .accordion-label::after {
+   /* -webkit-transform: rotate(90deg);
+   transform: rotate(90deg); */
+      content: "-";
+padding: 0rem 1rem 0 1rem;
+
+}
+input:checked ~ .accordion-content {
+   max-height: 100vh;
+   padding: 16px;
+}
+ 

@@ -1,0 +1,86 @@
+
+
+
+
+@media screen and (max-width: 991px) {
+   .hero-wrapper h1{
+        font-size: 6rem;
+    }
+    .nav-btn{
+    width: 12rem;
+      }
+}
+
+@media screen and (max-width: 768px) {
+    .hero-wrapper h1{
+        font-size: 4rem;
+        font-weight: 700;
+        line-height: 5rem;
+    }
+    .hero-wrapper p{
+        font-size: 1.8rem;
+    }
+   
+}
+
+@media screen and (max-width: 576px) {
+    .hero-wrapper h1{
+        font-size: 3rem;
+        line-height: 4rem;
+        font-weight: 800;
+  }
+    .hero-wrapper  p{
+        font-size: 1.4rem;
+        font-weight: 400;
+    }
+    .client-img  img{
+        display: none;
+        
+    }
+    .client-img2 img{
+       position: relative;
+       left: 18rem;
+
+    }
+    .advisor3 {
+        display: block;
+    }
+}
+@media screen and (max-width: 425px) {
+    .client-img2 img{
+        position: relative;
+        left: 13rem;
+ 
+     }
+  }
+
+
+@media screen and (max-width: 320px) {
+    .hero-wrapper h1{
+        font-size: 3rem;
+        line-height: 4rem;
+
+        font-weight: 800;
+  }
+    .hero-wrapper  p{
+        font-size: 1.4rem;
+        font-weight: 500;
+        line-height: 2.4rem;
+
+    }
+    .client-img2 img{
+        position: relative;
+        left: 8rem;
+ 
+     }
+    
+    }
+    .btn3{
+      padding: 0.8rem 1.8rem 0.8rem 1.8rem;
+      font-size: 1.2rem;
+      font-weight: 500;
+       border-radius: 5rem;
+       text-transform: uppercase;
+       color:var(--purple-color);
+       border: 0.1rem solid var(--purple-color);
+    }

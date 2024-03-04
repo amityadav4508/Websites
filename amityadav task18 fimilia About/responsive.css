@@ -1,0 +1,112 @@
+:root{
+  --white:#ffffff;
+  --red:#ff5552;
+  --black:#000000;
+  --sky-blue:#55acee;
+  --text-color:#878787;
+  --light-black:#202020;
+
+}
+
+
+@media screen and  (min-width: 992px) {
+    .nav2{
+        display: none;
+    }
+    .social-icon2{
+      display: none;
+    }
+  
+}
+
+@media screen and  (max-width: 991px) {
+    .navbar-nav1{
+        visibility: hidden;
+    }
+ .navbar-brand{
+    position: relative;
+    left: 29rem;
+    }
+    .navbar-brand  .img-fluid {
+      max-width: 20rem;
+      height: 3.5rem;
+  }
+  .social-icon2{
+    visibility: hidden;
+  }
+
+  .text-about-sec{
+    margin-top: 18rem;
+   
+  }
+}
+
+@media screen and  (max-width: 767px) {
+  .navbar{
+    z-index: 1;
+  }
+  .navbar-nav1{
+    visibility:visible;
+    position: relative;
+    /* left: 80%; */
+    background-color: white;
+    width: fit-content;
+    padding: 1rem 3rem 1rem 3rem;
+    margin-bottom: 1rem;
+}  
+.hr1{
+  border: 0.1rem solid var(--red);
+}
+.nav-link{
+  font-size: 1.2rem;
+  color: var(--light-black) !important;
+  margin-bottom: 1rem;
+}
+.dropdown-menu{
+  background-color: var(--white);
+}
+.dropdown-item{
+  color: var(--red);
+ margin-bottom: 0.4rem;
+ padding: 0.3rem;
+
+}
+
+
+.navbar-brand{
+  position: relative;
+  left: 0rem;
+  
+  }
+.social-icon{
+  display: none;
+}
+.social-icon2{
+  visibility: visible;
+  
+} 
+.social-icon2 .nav-link{
+  color: var(--white) !important;
+}
+  
+       .nav2{
+        display: none;
+       }
+       
+       .social-icon2 {
+        visibility: visible;
+        display: flex;
+        flex-direction: row;
+}
+.text-about-sec{
+  margin-top: 18rem;
+}
+
+.nav-link2:hover::before{
+  content: "";
+  position:absolute;
+  width: 100%;
+}
+
+
+}

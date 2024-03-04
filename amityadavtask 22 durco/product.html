@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootsrap css  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+
+    <!-- Aos css &js cdn  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js">
+    <!-- swiper.js css   -->
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+
+    <!-- lightbox css and js  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css">
+
+    <!-- fontawesom cdn  -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">    
+    <!-- bootstrap icon cdn  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="swiper.css">
+    <link rel="stylesheet" href="responsive.css">
+   <link rel="stylesheet" href="product.css">
+    <title>Task</title>
+</head>
+<body>
+
+<div id="preloader"></div>
+<!-- end preloader  -->
+<div class="topbar">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-3 topbar2  d-flex justify-content-center mt-2">
+           <h5>FREE DELIVERY </h5>
+           <h5> on all orders</h5>
+            </div>
+            <div class="col-sm-6 mt-2 text-end d-flex justify-content-center">
+                <h5><span> <i class="fa-solid fa-bolt-lightning"></i>  FLASH SALE:</span></h5>
+                <h5>  60% OFF CAR BATTERIES | USE CODE "BATT60"</h5>
+            </div>
+            <div class="col-sm-3 topbar1">
+                <ul class="nav justify-content-center ">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Help</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                      </li> 
+                  </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- navbar   nav1 -->
+<section class="header">
+    <div class="nav1" id="navbar">
+      <nav class="navbar navbar-expand-lg ">
+      <div class="container">
+     <a class="navbar-brand" href="#">
+     <img src="images//asset 0.png" class="img-fluid" alt="">
+     </a>
+<!-- <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+    aria-expanded="false" aria-label="Toggle navigation"></button> -->
+<div class="collapse navbar-collapse" id="collapsibleNavId">
+
+          <!--  -->
+    <ul class="navbar-nav m-auto  mt-lg-0  navbar-middle">
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle mt-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                All categories
+                <!-- <span><i class="fa-solid fa-chevron-up"></i></span> -->
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+        </li>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search for Products" aria-label="Search">
+              <button class="btn" type="submit">
+                <span><i class="bi bi-search"></i></span>
+              </button>
+            </form>
+    </ul>
+    <!--  -->
+    <ul class="navbar-nav ms-auto mt-2 mt-lg-0 cartbar">
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <span>English</span>
+            </a>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+            </li>
+            <li class="nav-item dropdown mx-3">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <span>USD</span>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+                </li>
+                <!-- icons nav -->
+                <li class="nav-item dropdown icon-link">
+                    <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <span><i class="bi bi-person"></i></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                    </li>
+                    <li class="nav-item dropdown icon-link">
+                        <a class="nav-link  " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <span><i class="bi bi-heart"></i></span>  <bold class="w3-badge w3-green">6</bold>
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                        </li>
+                       
+                     
+                        <li class="nav-item dropdown icon-link">
+                        <a class="nav-link  " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <span><i class="bi bi-cart"></i></span><bold class="w3-badge w3-green">6</bold>
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                        </li>
+    </ul>
+</div>
+ </nav>
+ </div>
+</section>
+
+
+
+
+<!-- start nav2 -->
+<div class="nav2 ">
+
+    <nav class="navbar navbar-expand-md ">
+        <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="col-sm-9 collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li><a class="nav-link" href="home.html">Home</a></li>
+              <li><a class="nav-link" href="about.html">About </a></li>
+              <li><a class="nav-link" href="blog.html">Blog</a></li>
+              <li><a class="nav-link" href="product.html">Products</a></li>
+
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                service parts
+                            </a>
+                            <ul class="dropdown-menu">
+                              <div class="row">
+                                <div class="col-lg-3 dropdown px-4 dropd d-sm-blok d-block">
+                                  <h5 class="fs-4">LUBRICANTS & FLUIDS</h5>
+                                  <li><a class="dropdown-ite" href="#">Antifreeze & Coolant</a></li>
+                                  <li><a class="dropdown-ite" href="#">Automatic Transmission Oil</a></li>
+                                  <li><a class="dropdown-ite" href="#">Brak fluid</a></li>
+                                  <li><a class="dropdown-ite" href="#">Antifreeze & Coolant</a></li>
+                                  <li><a class="dropdown-ite" href="#">Automatic Transmission Oil</a></li>
+                                  <li><a class="dropdown-ite" href="#">Brak fluid</a></li>
+                                 
+                                </div>
+                                <div class="col-lg-3 dropdown  d-sm-blok d-block dropd px-4">
+                                  <h5 class="fs-4"> TIMING BELTS & PARTS</h5>   
+                                  <li><a class="dropdown-ite" href="#">Antifreeze & Coolant</a></li>
+                                  <li><a class="dropdown-ite" href="#">Automatic Transmission Oil</a></li>
+                                  <li><a class="dropdown-ite" href="#">Brak fluid</a></li>
+                                  <li><a class="dropdown-ite" href="#">Antifreeze & Coolant</a></li>
+                                  <li><a class="dropdown-ite" href="#">Automatic Transmission Oil</a></li>
+                                  <li><a class="dropdown-ite" href="#">Brak fluid</a></li>   
+                                </div>
+                                <!--  -->
+                                <div class="col-lg-6 dropdown  d-sm-blok d-block dropd px-4">
+                                  <h5 class="fs-4"> FEATURED CATEGORIES</h5>
+                                <div class="row">
+                                  <div class="col-sm-6">
+                                      <img src="images/asset 11.jpeg" class="img-fluid" alt="">
+                                       <li><a href="">Wheels & Tires</a></li>
+                                  </div>
+                                  <div class="col-sm-6">
+                                    <img src="images/asset 12.jpeg" class="img-fluid" alt="">
+                                     <li><a href="">Wheels & Tires</a></li>
+                                </div>
+                               
+                               
+                                </div>
+                                <!--  -->
+                               </div>
+
+
+                            </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    brake
+                                </a>
+                            
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="#">Action</a></li>
+                                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                                  <li><hr class="dropdown-divider"></li>
+                                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        car batteries
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                      <li><a class="dropdown-item" href="#">Action</a></li>
+                                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                                      <li><hr class="dropdown-divider"></li>
+                                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <span>tools & garage</span>
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                          <li><a class="dropdown-item" href="#">Action</a></li>
+                                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                                          <li><hr class="dropdown-divider"></li>
+                                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                        </ul>
+                                        </li>
+                                        <li></li>
+            </ul>          
+          </div>
+        </div>
+        <div class="col-sm-3 nav-contact">
+            <div class="row">
+                <div class="col-sm-2 ">
+                    <span><i class="fa-solid fa-headphones"></i></span>
+                </div>
+                <div class="col-sm-8 ">
+                    <h6>Call us 24x7</h6>
+                    <h3>+08 9229 8228</h3>
+                </div>
+            </div>
+           
+          </div>
+    </nav>
+
+</div>
+<!-- end navbar  -->
+   
+
+
+<section class="nav-about px-3 bg-gray">
+  <div class="container-fluid px-5 py-3">
+    <div class="row">
+      <div class="col-sm d-flex product-nav" >
+        <p><a href="home.html">Home</a></p>
+        <p><a href="shop.html">/Shop</a></p>
+        <p><a href="#">/Timing Belts & Parts</a></p>
+        <p><a href="#S">/Timing Belt Kit</a></p>
+        <p>/ Road and Track Suspension</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- {{-- start blogs  --}} -->
+<section class="blog Product">
+  <div class="container-fluid">
+  <div class="row">
+  <div class="col-sm text-center">
+  <h2> Blog</h2>
+  </div>
+  </div>
+  <div class="row">
+<div class="col-lg-6 col-md-6 d-sm-block d-block blog-left ">
+<div class="row mb-5">
+   <div class="product-search d-flex justify-content-between">
+    <h5 class="red">-7%</h5>
+    <button class=" btn" type="submit">
+        <span><i class="bi bi-search"></i></span>
+      </button>
+   </div>
+    <div class="small-container single-product">
+        <div class="row row2">
+            <div class="col Product-img">
+                <img src="images/product/asset 11.jpeg"  id="ProductImg">
+                <div class="small-img-row2 d-flex justify-content-around">
+                    <div class="small-img-col st">
+                        <img src="images/product/asset 12.jpeg"  id="ProductImg">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/product/asset 13.jpeg"  id="ProductImg">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/product/asset 14.jpeg"  id="ProductImg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+</div>
+  </div>
+  <!-- {{-- Product Right Side Section ------------------------------------------ --}} -->
+  <div class="col-lg-6 col-md-6 d-sm-block d-block  mt-5   product-right">
+    <div class="row mb-5">
+        <div class="col-sm">     
+          <div class="  px-2 blog-page-img-text">
+           <div class=" d-flex">
+            <h6 class="mt-3 mb-3 review-star">
+                <span><i class="fa-solid fa-star"></i></span>
+                <span><i class="fa-solid fa-star"></i></span>
+                <span><i class="fa-solid fa-star"></i></span>
+                <span><i class="fa-solid fa-star"></i></span>
+                <span><i class="fa-solid fa-star-half"></i></span>
+                </h6>
+                 <p class="mt-2 mx-3 ">Reviews (3)</p>
+           </div>
+
+          <h3>Road and Track Suspension</h3>
+          <h3>$49.99  <span><strike>$53.75</strike></span></h3>   
+          <p><span><i class="fa-solid fa-check"></i></span> In Stock </p> 
+          <p>The small round table in the dinette may be great for casual 
+            meals with your family, but inviting overnight guests.</p>
+           
+            <ul class="product-list"> 
+                <li>Country: Usa</li>
+                <li>Part Number: A123-3416</li>
+                <li>Color: White/Sliver</li>
+            </ul>
+            <h5>Quantity</h5>
+            <input type="number" placeholder="1">
+          <div class="col-sm" id="btn4">
+         <div class="row">
+           <div class="col-sm-6 d-md-block mt-5 "><a class="btn4" href="">ADD TO CART</a></div>
+           <div class="col-sm-6 d-md-block mt-5 "><a class="btn4 buy-now" href="">BUY NOW</a></div>
+         </div>
+          </div>
+          
+          <div class=" d-flex gap-5 compare">
+            <p><strong><i class="fa-regular fa-heart"></i></strong>
+            <a href="">add to wishlist</a></p>
+            <p><strong><i class="fa-solid fa-code-compare"></i></strong>
+                <a href="">add to wishlist</a></p>
+          </div>
+          <hr>
+          <div class="brands ">
+            <p><strong class="fs-4">BRANDS:</strong><a href="">Auto Part Plus</a> </p>
+            <p><strong class="fs-4">SKU:</strong>  SF348 </p>
+            <p><strong class="fs-4">SHARE:</strong>
+            <strong><i class="fa-brands fa-facebook-f"></i></strong>
+            <strong><i class="fa-brands fa-instagram"></i></strong>
+            <strong><i class="fa-brands fa-linkedin-in"></i></strong>
+            </p>
+          </div>
+          </div>
+        </div>
+      </div>
+      </div>
+     </div>
+  </div>
+  </section>
+  
+  <section class="togethor">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm">
+                <h2>Frequently Bought Together  </h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 col-md-4 col-sm-6 d-block togethor-img">
+                <img src="images/product/asset 15.jpeg" class="img-fluid" alt="">
+                <span><i class="fa-solid fa-plus"></i></span>
+           <div class="text-center">
+            <p>This Product: Road and Track  Suspension</p>
+            <p><strong>$49.99</strong> <strike>$53.75</strike></p>
+           </div>
+            </div>
+         
+         <div class="col-lg-3 col-md-4 col-sm-6 d-block togethor-img">
+            <img src="images/product/asset 18.jpeg" class="img-fluid" alt="">
+            <span><i class="fa-solid fa-plus"></i></span>
+       <div class="text-center">
+        <p>This Product: Road and Track  Suspension</p>
+        <p><strong>$49.99</strong> <strike>$53.75</strike></p>
+       </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 d-block togethor-img">
+            <img src="images/product/asset 19.jpeg" class="img-fluid" alt="">
+            <!-- {{-- <span><i class="fa-solid fa-plus"></i></span> --}} -->
+       <div class="text-center">
+        <p>This Product: Road and Track  Suspension</p>
+        <p><strong>$49.99</strong> <strike>$53.75</strike></p>
+       </div>
+        </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 d-block together-text ">
+               
+                <div class=" child">
+                    <p>Price fof All:</p>
+                    <p><strong>$49.99</strong></p>
+                    <div class="col-sm mt-5" id="btn4">
+                        <div class="row">
+                          <div class="col-sm-6"><a class="btn4" href="">ADD TO CART</a></div>
+                        </div>
+                         </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+  </section>
+
+
+  <section class="description">
+  <div class="container-fluid">
+   <div class="container-fluid">
+    <div class="row">
+        <div class="col-sm">
+
+
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link active" id="pills-descrition-tab" data-bs-toggle="pill" data-bs-target="#pills-descrition" type="button" role="tab" aria-controls="pills-descrition" aria-selected="true">
+                    <h5>DESCRIPTION</h5>
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="pills-information-tab" data-bs-toggle="pill" data-bs-target="#pills-information" type="button" role="tab" aria-controls="pills-information" aria-selected="false">
+                    <h5>ADDITIONL INFORMATION</h5></button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="pills-returns-tab" data-bs-toggle="pill" data-bs-target="#pills-returns" type="button" role="tab" aria-controls="pills-returns" aria-selected="false">
+                    <h5>DELIVERY & RETURN</h5></button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="pills-reviews-tab" data-bs-toggle="pill" data-bs-target="#pills-reviews" type="button" role="tab" aria-controls="pills-reviews" aria-selected="false">
+                    <h5>REVIEWS</h5></button>
+                </li>
+              </ul>
+
+              <!-- {{-- tab1 --}} -->
+              <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-descrition" role="tabpanel" aria-labelledby="pills-descrition-tab" tabindex="0">.
+             <P>This model is offered in sizes 17 to 20 inches with widths ranging from 8 to 11 inches. Each wheel has an approximate weight of 17.19lbs to 22.94lbs. Has two finish options: Dark Metallic Graphite and Gloss Bronze. The Ampliform is offered in 4 and 5 lug bolt patterns.
+             </P>
+             <div class="row mt-5">
+                <div class="col-sm-6 justify-content-between">
+                    <ul>
+                        <li>Brand: Anovia</li>
+                        <li>Brand: Anovia</li>
+                        <li>Brand: Anovia</li>
+                        <li>Brand: Anovia</li>
+                        <li>Brand: Anovia</li>
+                        <li>Brand: Anovia</li>
+                        <li>Brand: Anovia</li>
+                        <li>Brand: Anovia</li>
+                        <li>Brand: Anovia</li>
+                        <li>Brand: Anovia</li>
+                    </ul>
+                </div>
+                <div class="col-sm-6">
+                    <ul>
+                        <li>Brand: Anovia</li>
+                        <li>Brand: Anovia</li>
+                        <li>Brand: Anovia</li>
+                        <li>Brand: Anovia</li>
+                        <li>Brand: Anovia</li>
+                        <li>Brand: Anovia</li>
+                        <li>Brand: Anovia</li>
+                        <li>Brand: Anovia</li>
+                        <li>Brand: Anovia</li>
+                        <li>Brand: Anovia</li>
+
+                    </ul>
+                </div>
+             </div>
+
+                </div>
+             <div class="tab-pane fade" id="pills-information" role="tabpanel" aria-labelledby="pills-information-tab" tabindex="0">.</div>
+                <div class="tab-pane fade" id="pills-returns" role="tabpanel" aria-labelledby="pills-returns-tab" tabindex="0">..3.</div>
+                <div class="tab-pane fade" id="pills-reviews" role="tabpanel" aria-labelledby="pills-reviews-tab" tabindex="0">.4.</div>
+              </div>
+
+        </div>
+    </div>
+   </div>
+  </div>
+  </section>
+
+
+<section class="related-product">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm mt-5 mb-5">
+                <h2>Related products </h2>
+                
+            </div>
+        </div>
+ 
+        <div class="row">
+        <div class="col">
+          
+            <div class="swiper myProducts">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide  thecard">
+                    <div class="card">
+                        <img src="images/product/asset 27.jpeg" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body text-start ">
+                        <p><a href="">Spectre Performance SPE-9055 </a></p>
+                        <h6 class="mt-3 mb-3">
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star-half"></i></span>
+                        </h6>
+                        <h4><span>$106.58  - $202.87 </span></h4>
+                        
+                        <div class="card-share d-flex flex-column gap-3">
+                        <span><i class="bi bi-search"></i></span>
+                        <span><i class="bi bi-heart"></i></span>
+                        <span><i class="bi bi-arrow-repeat"></i></span>
+                        </div>
+                        
+                        <div class="cardhover col-sm mt-5 col-sm text-center">
+                        <a href="#" class="popular-btn ">add to cart</a>
+                        </div>
+                        
+                        </div>
+                        </div>
+
+                  </div>
+                  
+                  <div class="swiper-slide">
+                    <div class="card thecard">
+                        <img src="images/product/asset 17.jpeg" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body text-start ">
+                        <p><a href="">Spectre Performance SPE-9055 </a></p>
+                        <h6 class="mt-3 mb-3">
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star-half"></i></span>
+                        </h6>
+                        <h4><span>$106.58  - $202.87 </span></h4>
+                        
+                        <div class="card-share d-flex flex-column gap-3">
+                        <span><i class="bi bi-search"></i></span>
+                        <span><i class="bi bi-heart"></i></span>
+                        <span><i class="bi bi-arrow-repeat"></i></span>
+                        </div>
+                        
+                        <div class="cardhover col-sm mt-5 col-sm text-center">
+                        <a href="#" class="popular-btn ">add to cart</a>
+                        </div>
+                        
+                        </div>
+                        </div>
+
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card thecard">
+                        <img src="images/product/asset 21.jpeg" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body text-start ">
+                        <p><a href="">Spectre Performance SPE-9055 </a></p>
+                        <h6 class="mt-3 mb-3">
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star-half"></i></span>
+                        </h6>
+                        <h4><span>$106.58  - $202.87 </span></h4>
+                        
+                        <div class="card-share d-flex flex-column gap-3">
+                        <span><i class="bi bi-search"></i></span>
+                        <span><i class="bi bi-heart"></i></span>
+                        <span><i class="bi bi-arrow-repeat"></i></span>
+                        </div>
+                        
+                        <div class="cardhover col-sm mt-5 col-sm text-center">
+                        <a href="#" class="popular-btn ">add to cart</a>
+                        </div>
+                        
+                        </div>
+                        </div>
+
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card thecard">
+                        <img src="images/product/asset 28.jpeg" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body text-start ">
+                        <p><a href="">Spectre Performance SPE-9055 </a></p>
+                        <h6 class="mt-3 mb-3">
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star-half"></i></span>
+                        </h6>
+                        <h4><span>$106.58  - $202.87 </span></h4>
+                        
+                        <div class="card-share d-flex flex-column gap-3">
+                        <span><i class="bi bi-search"></i></span>
+                        <span><i class="bi bi-heart"></i></span>
+                        <span><i class="bi bi-arrow-repeat"></i></span>
+                        </div>
+                        
+                        <div class="cardhover col-sm mt-5 col-sm text-center">
+                        <a href="#" class="popular-btn ">add to cart</a>
+                        </div>
+                        
+                        </div>
+                        </div>
+
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card thecard">
+                        <img src="images/product/asset 24.jpeg" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body text-start ">
+                        <p><a href="">Spectre Performance SPE-9055 </a></p>
+                        <h6 class="mt-3 mb-3">
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star-half"></i></span>
+                        </h6>
+                        <h4><span>$106.58  - $202.87 </span></h4>
+                        
+                        <div class="card-share d-flex flex-column gap-3">
+                        <span><i class="bi bi-search"></i></span>
+                        <span><i class="bi bi-heart"></i></span>
+                        <span><i class="bi bi-arrow-repeat"></i></span>
+                        </div>
+                        
+                        <div class="cardhover col-sm mt-5 col-sm text-center">
+                        <a href="#" class="popular-btn ">add to cart</a>
+                        </div>
+                        
+                        </div>
+                        </div>
+
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card thecard">
+                        <img src="images/product/asset 23.jpeg" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body text-start ">
+                        <p><a href="">Spectre Performance SPE-9055 </a></p>
+                        <h6 class="mt-3 mb-3">
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star-half"></i></span>
+                        </h6>
+                        <h4><span>$106.58  - $202.87 </span></h4>
+                        
+                        <div class="card-share d-flex flex-column gap-3">
+                        <span><i class="bi bi-search"></i></span>
+                        <span><i class="bi bi-heart"></i></span>
+                        <span><i class="bi bi-arrow-repeat"></i></span>
+                        </div>
+                        
+                        <div class="cardhover col-sm mt-5 col-sm text-center">
+                        <a href="#" class="popular-btn ">add to cart</a>
+                        </div>
+                        
+                        </div>
+                        </div>
+
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="card thecard">
+                        <img src="images/product/asset 25.jpeg" class="card-img-top img-fluid" alt="...">
+                        <div class="card-body text-start ">
+                        <p><a href="">Spectre Performance SPE-9055 </a></p>
+                        <h6 class="mt-3 mb-3">
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star-half"></i></span>
+                        </h6>
+                        <h4><span>$106.58  - $202.87 </span></h4>
+                        
+                        <div class="card-share d-flex flex-column gap-3">
+                        <span><i class="bi bi-search"></i></span>
+                        <span><i class="bi bi-heart"></i></span>
+                        <span><i class="bi bi-arrow-repeat"></i></span>
+                        </div>
+                        
+                        <div class="cardhover col-sm mt-5 col-sm text-center">
+                        <a href="#" class="popular-btn ">add to cart</a>
+                        </div>
+                        
+                        </div>
+                        </div>
+
+                  </div>
+                 
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+             
+              </div>
+
+
+
+        </div>
+        </div>
+
+    </div>
+</section>
+
+
+  <!-- <footer></footer> -->
+  <section class="footer">
+    <div class="container">
+      <div class="row ">
+        <div class="col-lg-3 col-md-3 d-sm-block d-block address">
+          <h6>Says Hello</h6>
+          <p>Address: 1234 Heaven Stress, Beverly Hill OldYork- United State of Lorem</p>
+          <p>Phone: 1234 5678 5576 – 4657 4657 4656</p>
+          <p>Email: Support1234@Orlife</p>
+          <h5 class="mt-3 mb-5">
+            <span><i class="fa-brands fa-facebook-f"></i></span>
+            <span><i class="fa-brands fa-twitter"></i></span>
+            <span><i class="fa-brands fa-pinterest-p"></i></span>
+            <span><i class="fa-brands fa-linkedin-in"></i></span>
+          </h5>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 d-block ">
+          <h6>My Account</h6>
+          <p><a href="">About</a></p>
+          <p><a href="">Advertising</a></p>
+          <p><a href="">Busines Development</a></p>
+          <p><a href="">Careers</a></p>
+          <p><a href="">Permission</a></p>
+          <p><a href="">Contact</a></p>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 d-block">
+            <h6>My Products</h6>
+            <p><a href="">About</a></p>
+            <p><a href="">Advertising</a></p>
+            <p><a href="">Busines Development</a></p>
+            <p><a href="">Careers</a></p>
+            <p><a href="">Permission</a></p>
+            <p><a href="">Contact</a></p>
+            </div>
+  
+            <div class="col-lg-3 col-md-3 col-sm-6 d-block">
+              <h6>Read services</h6>
+              <p><a href="">Advertising</a></p>
+              <p><a href="">Busines Development</a></p>
+              <p><a href="">Careers</a></p>
+              <p><a href="">Permission</a></p>
+              <p><a href="">Contact</a></p>
+              </div>
+      </div>
+    </div>
+  <hr>
+  <div class="container">
+    <div class="row copy-right">
+      <div class="col-lg-6 col-md-6 d-sm-block md-text-center sm-text-center  text-start">
+        <p>©<span>Druco.</span> All Rights Reserved.</p>
+      </div>
+      <div class="col-lg-6 col-md-6 d-sm-block text-md-center text-sm-center  mt-5 text-end ">
+        <img src="images/asset 41.png" class="img-fluid" alt="">
+      </div>
+    </div>
+  </div>
+  </section>
+  
+  
+  
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- SWIPER.JS  for slider-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+        <!-- Aos for scroll animation  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!-- custom js link  -->
+     <script src="script.js"></script>
+    </body>
+    </html>

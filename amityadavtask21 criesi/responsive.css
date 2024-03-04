@@ -1,0 +1,153 @@
+
+
+
+
+@media screen and (min-width: 991px) {
+    .button{
+        display: none;
+    }
+    
+}
+@media screen and ( max-width: 1024px) {
+    h1{
+        font-size: 3.5rem;
+        .visit img{
+            height: 50rem;
+          }
+          .visit .visit-right{
+          
+            padding-bottom: 20rem;
+            
+          }
+          .btn3{
+            padding: 1rem;
+            font-size: 1.4rem;
+          
+          }
+         
+}
+@media screen and ( max-width: 991px) {
+    .btn3{
+        padding: 1rem;
+        font-size: 1.4rem;
+      
+      }
+      .hero-services{
+        top: 2rem;
+      }
+      .visit img{
+        height: 60rem;
+      }
+      .visit .visit-right{
+      
+        padding-bottom: 20rem;
+        
+      }
+}
+.heor{
+    height: auto;
+}
+}
+@media screen and ( max-width: 768px) {
+    .topbar1{
+        text-align: center;
+        display: block;
+     order: 2;
+    }
+    .services-inner{
+        display: block;
+    }
+    .topbar2{
+        text-align: center;
+        display: block;
+     order: 1;
+    }
+    .topbar1 ul{
+        justify-content: center;
+
+    }
+    
+    .hero-services{
+        top: 2rem;
+      }
+       
+}
+@media screen and ( max-width: 580px) {
+    .social-media{
+        visibility: hidden;
+    }
+    .button{
+      margin-top: 0;
+    }
+    .hero h1{
+      font-size: 1.6rem;
+    }
+  .hero  p{
+     font-size: 1.2rem;
+     font-weight: 300;
+     margin-top: 0;
+     margin-bottom: 0;
+    }
+   .hero .btn3{
+      padding: 0.1rem;
+      font-size: 1rem;
+    
+    }
+  
+}
+
+@media screen and ( max-width: 475px) {
+   
+  .hero .hero-text{
+    position: absolute;
+    top: 17%;
+    left: 10%;
+  }
+    
+}
+@media screen and ( max-width: 425px) {
+   .hero h1{
+        font-size: 1.6rem;
+      }
+    .hero  p{
+       font-size: 1.2rem;
+       font-weight: 300;
+       margin-top: 0;
+       margin-bottom: 0;
+      }
+     .hero .btn3{
+        padding: 0rem;
+        font-size: 0.7rem;
+      
+      }
+      .hero .hero-text{
+        position: absolute;
+        top: 17%;
+        left: 10%;
+      }
+      
+    
+}
+@media screen and (max-width:320px ) {
+  .hero h1{
+     font-size: 1.6rem;
+   }
+   .hero  p{
+    font-size: 1rem;
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 0;
+   }
+  .hero .btn3{
+     padding: 0.1rem;
+     font-size: 1rem;
+   
+   }
+   .hero .hero-text{
+    position: absolute;
+    top: 17%;
+    left: 10%;
+  }
+ 
+   
+}

@@ -1,0 +1,179 @@
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 10px;
+}
+body{
+  background-color:var(--gray-color);
+  font-family: 'Oswald', sans-serif;
+}
+
+:root{
+  --gray-color:rgba(128, 128, 128,0.15);
+  --text-color:rgb(34, 33, 33);
+  --bg-green:green;
+}
+a{
+  text-decoration: none;
+  color:var(--text-color) ;
+}
+h1{
+  font-size: 6rem;
+  font-weight: 600;
+}
+
+h4{
+  font-size: 3rem;
+  font-weight: 400;
+  margin: 3rem 1rem;
+}
+h6{
+  font-size: 2rem;
+  font-weight: 600;
+}
+p{
+  font-size: 1.8rem;
+  font-weight: 200;
+  line-height: 4rem;
+  color: var(--text-color);
+}
+
+/* navbar section   */
+.nav-link{
+  font-size: 2rem;
+  font-weight: 500;
+margin-left: 2rem;}
+.navbar-brand{
+ height: 5rem;
+}
+
+.navbar{
+  position: fixed;
+  top:0;
+  width:100%
+}
+/* end navbar section */
+
+/* start hero sections  */
+.hero{
+  padding: 6rem 6rem !important;
+}
+
+.hero .hero-top img{
+  height: 8rem;
+}
+.hero h3{
+  font-size: 6rem ;
+  font-weight: 400;
+}
+
+.hero-imgages-part{
+  margin-top: 7rem;
+}
+
+
+/* start feaured sections */
+.featured{
+  margin: 6rem 6rem;
+}
+/* compare  */
+.compare span{
+  font-size: 5rem;
+  font-weight: 500;
+}
+
+
+h2{
+  font-size: 3rem;
+  font-weight: 500;
+}
+.compare .card1{
+background-color: white;
+padding-bottom:5rem ;
+box-shadow: -1px 1px 8px 1px #4e4a4a;
+}
+.compare .card2{
+  padding: 3rem 3rem;
+  position: relative;
+  right: 3rem;
+  z-index: -1;
+}
+
+.compare .card1 h2{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+color: gray;
+
+}
+.compare .card1 p{
+  font-size: 1.4rem;
+}
+.compare .card1 img{
+  margin-top: 1rem;
+  line-height: 1.5rem;
+}
+.compare .card1 h3{
+  background-color: var(--bg-green);
+  font-size: 2.4rem;
+  font-weight: 500;
+  color: white;
+  padding: 1.5rem ;
+  border-radius: 0.5rem;
+  width: 100% !important;
+}
+.hr-1{
+  border: 0.2rem solid gray;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* tip section  */
+.tip{
+  padding: 6rem 6rem;
+}
+.tip h5{
+  margin: 3rem 3rem;
+}
+.tip p{
+  font-size: 1.4rem;
+  margin: 3.5rem 3.5rem;
+  
+}
+.tip img{
+  height: 10rem;
+}
+.footer{
+  padding: 5rem 5rem;
+  background-color:rgb(9, 10, 31);
+  color: white;
+}
+.footer p a{
+  color: white;
+}
+.footer p{
+  line-height: 1.6rem;
+}
+.footer span{
+  font-size: 1.4rem;
+}
+.footer .copy-right{
+  padding: 2rem 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+

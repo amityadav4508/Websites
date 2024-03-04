@@ -1,0 +1,559 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    background-color: #191717;
+
+
+}
+html{
+  font-size: 10px;
+}
+
+#preloader{
+  background:#191717  url('images/asset\ 40.gif') no-repeat center;
+  background-size: 15%;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+
+h2{
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+h2,h3,h6,h5{
+    color: white;
+}
+.container{
+  overflow: hidden;
+}
+:root{
+    --dark-black:#000000;
+    --light-black:#141414;
+    --sky-color:#007aff;
+    --gray-color:#6c757d;
+    --dark-gray:#343a40;
+    --light-gray:#d1d0cf;
+    --dark-red:#bf000a;
+    --light-dark:#01011;
+    --light-red:#dc3545;
+    --light-yello:#e6c75f;
+}
+.navbar{
+    padding: 10px;
+    background-color:rgba(6, 6, 6, 0.5);
+ position: fixed;
+ width: 100%;
+ z-index: 9;
+  
+}
+.navbar-brand{
+    /* background-color: rgb(68, 67, 67); */
+    /* width: 170px; */
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.navbar-brand img{
+    width: 15rem;
+}
+.navbar-left :last-child {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%
+
+}
+.nav-link{
+    text-transform: uppercase;
+    color: white ;
+    font-size: 1.7rem;
+    font-weight: 400;
+    margin:0.5rem;
+}
+.nav-link:hover{
+    color: red;
+    font-weight: 500;
+}
+.hero-section {
+    position: relative;
+    
+    z-index: 1;
+
+}
+/* .hero-section .card-body  */
+.card-images img{
+    filter: brightness(35%);
+    width: max-content;
+}
+ .card-body img{
+  position:relative;
+  border: none;
+}
+ .card-body{
+    position: absolute;
+   top:15%;
+    margin-left: 100px;
+    color: white;
+}
+/* .hero-title{
+  height: 6rem;
+  width: 100%;
+} */
+.hero-title h1{
+  font-size: 5rem;
+  width: 100%;
+  font-weight: 600;
+}
+.hero-description p{
+  font-size: 1.7rem;
+  text-align: justify;
+}
+
+.card-body-icon-img img
+{
+    width: 16rem;
+    padding: 0.4rem;
+    margin-left: 2rem;
+}
+.card-body-icon-img {
+  background: linear-gradient(90deg, #D60404 6%, rgba(208, 32, 32, 0.71) 3%, rgba(169, 148, 148, 0.07) 85%); 
+   border-radius: 0.001rem;
+   position: relative;
+   bottom: 4rem;
+   width: 23rem;
+}
+.stars{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.stars span{
+    color: #bf000a;
+    font-size: large;
+    margin-left: 0.2rem;
+}
+.hero-description{
+  width:85%;
+  /* text-align: justify; */
+}
+
+.card-text{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.btn1{
+  margin-top: 4rem ;
+}
+.playbtn{
+    width: 15rem;
+    background-color: #bf000a;
+    padding: 0.8rem 1.5rem 0.8rem 1.5rem;
+    border-radius: 0.3rem;
+    color: white;
+    
+}
+
+.playbtn2{
+
+    width: 20rem;
+    background-color: #bf000a;
+    padding: 0.4rem 1rem 0.4rem 1rem;
+    border-radius: 0.3rem;
+    color: white;
+    
+}
+.playbtnanimate  a{   
+    text-decoration: none;
+    letter-spacing: 0.8rem;
+    color: white;
+}
+.playbtnanimate {
+   text-align: center;
+margin-top: 15%;
+}
+a{
+  text-decoration: none;
+}
+.playbtnanimate h3{
+  font-size: 2rem;
+  font-weight: 400;
+}
+.playbtnanimate span  {
+border:0.2rem solid white ; 
+  font-size: 4.8rem;
+  border-radius: 50% ;
+  padding-left: 2rem;
+}
+.playbtnanimate span:hover  {
+  font-size: 4.8rem;
+  animation: myAnimt 0.5s ease-in  0s 1 normal forwards ;
+}
+
+@keyframes myAnimt {
+	0% {
+		transform: rotate(0);
+   
+	}
+
+	100% {
+    border-radius: 50% ;
+    color: red;  
+       border:0.2rem solid red ; 
+       transform: rotate(300deg);
+	}
+}
+
+
+/* lates movies seciton  --------------------------------------------------*/
+.myVideo .swiper-slide{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    transition: 0.5s ease-out;
+}
+.latest-movies{
+    margin: 10rem 0 10rem 0;
+}
+.view-all a{
+    color:red;
+    font-size: 2rem;
+    font-weight: 500;
+
+}
+.video-text h5{
+  font-size: 1.9rem;
+}
+.video-text h6{
+  font-size: 1.7rem;
+}
+
+
+.myVideo .video-text{
+    position: absolute;
+    text-align:start;
+    left: 2.2rem;
+    top: 9rem;
+    
+}
+.share{
+  opacity: 0;
+}
+.swiper-slide:hover{
+    /* transform: scale(1.1); */
+    transform: translateX(1rem);
+
+} 
+.swiper-slide:hover video{
+  transform: scale(1.1);
+  background: linear-gradient(to right, #D60404 0%, rgba(208, 32, 32, 0.61) 3%, rgba(169, 148, 148, 0.05) 85%); 
+
+
+
+}
+.swiper-slide:hover .share li{
+    position:relative ;
+    bottom: 9rem;
+    left: 27rem;
+    color:rgb(226, 11, 11);
+    margin: 1.6rem;
+    background-color: white;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin: 1.6rem;
+    outline: 0.5rem solid gray;
+    padding-top: 0.3rem;
+ border-radius: 50%;
+    font-size: 1.4rem;
+    z-index:9;
+}
+
+/* movies of the years  */
+
+.awards{
+    margin-top: 8rem;
+    
+    margin-bottom: 8rem;
+    background-image: url('images/asset\ 15.jpeg');
+  background-attachment: fixed;
+  background-size: cover;
+filter: brightness(40%);
+    background-repeat: no-repeat;
+    
+}
+
+.awards p{
+    color: white;
+    font-size: 2rem;
+}
+.awards .award-right-img img{
+  height: 55rem;
+  width: 60rem;
+  filter: brightness(100%);
+  padding: 5rem;
+  
+}
+
+/* end  movie of the years  */
+
+
+
+/* top 1o united  */
+.trending-slide {
+    text-align: center;
+    font-size: 1.8rem;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .trending-slide img {
+    display: block;
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+ 
+
+  /* body {
+    background: #000;
+    color: #000;
+  } */
+
+  .Trendings {
+    width: 100%;
+    height: 30rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .united-slide {
+    background-size: cover;
+    background-position: center;
+    transition: 1s ease-in;
+  }
+  
+  .myUnited {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1rem 0;
+    z-index: 9;
+  }
+
+  .myUnited2 {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+  }
+
+
+  .myUnited .united-slide {
+    width: 200px;
+    height: 30%;
+    opacity: 0.9;
+  }
+
+  .myUnited .united-slide-thumb-active {
+    opacity: 1;
+  }
+
+  .united-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* end top 10 united  */
+
+/* trending sections  */
+.trending-slide {
+    text-align: center;
+    font-size: 1.8rem;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .trending-slide img {
+    display: block;
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+ 
+
+  /* body {
+    background: #000;
+    color: #000;
+  } */
+
+  .Trendings {
+    width: 100%;
+    height: 30rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .trending-slide {
+    background-size: cover;
+    background-position: center;
+    transition: 1s ease-in;
+  }
+  
+  .myTrending {
+    height: 15%;
+    height: 15rem;
+    box-sizing: border-box;
+    padding: 10px 0;
+  }
+
+  .myTrending2 {
+    height: 80%;
+    width: 100%;
+  }
+
+
+  .myTrending .trending-slide {
+    width: 18%;
+    height: 100%;
+    opacity: 0.6;
+  }
+
+  .myTrending .trending-slide-thumb-active {
+    opacity: 1;
+  }
+
+  .trending-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* .tslide2:hover img{
+    transform: scale(1.1);
+    outline: 2rem solid black;
+}
+
+.trending-nav{
+  z-index: 9;
+}
+.tslide2{
+  z-index: 5;
+} */
+/*  */
+
+
+
+
+/* category section start  */
+
+
+
+.category .card-body{
+  position: absolute;
+ top:20%;
+  margin-left: 100px;
+  color: white;
+}
+.hero-title{
+ height: 6rem;
+width: 100%;
+}
+.hero-title h1{
+font-size: 5rem;
+width: 100%;
+font-weight: 600;
+}
+.hero-description p{
+font-size: 1.7rem;
+text-align: justify;
+}
+
+
+
+/* categories section start  */
+
+
+
+
+/* footer section  */
+footer{
+    color: white;
+    background-color: #141414;
+}
+footer p{
+  font-size: 1.5rem;
+
+}
+footer h5 a{
+    color: white;
+    font-size: 2rem;
+
+}
+footer .solcial-media  a{
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    width: 4rem;
+    height: 5rem;
+    font-size: 2rem;
+    margin: 0.5rem;
+    background-color: rgb(46, 44, 44);
+    border-radius: 50%;
+}
+footer .solcial-media a:hover{
+  color: red;
+  box-shadow: 0px 1px 9px 1px #c10808;
+}
+footer .solcial-media  h5{
+  font-size: 2rem;
+
+}
+.streamit-app img{
+    height: 4rem;
+    width: 99%;
+}
+.streamit-app h5{
+  font-size: 2rem;
+}
+
+/* videos section  */
+.category .view span{
+  padding: 0.4rem;
+  border-radius: 0.2rem;
+  font-size: 1.3rem;
+}
+/* end videos sections  */
+
+
+/* contact sections start  */
+
+/* contact section end  */
+
+
+
+/* top button styl  */
+#top-button{
+  font-size: 2rem;
+  color: rgb(219, 219, 219);
+  padding-left: 2.2rem;
+  padding-top: 1.3rem;
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  background-color: #bf000a;
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  z-index: 2;
+}
+/* end top button  */

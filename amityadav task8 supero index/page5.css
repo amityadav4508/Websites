@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+  background:var(--bg-white-color);
+  color: var(--text-color-gray);
+  }
+  .container-fluid{
+    overflow: hidden;
+  }
+  :root{
+    --bg-white-color:rgb(255, 252, 252);
+    --bg-blue-dark:#004fbd;
+    --text-color-blue:#1967d2;
+    --text-heading-black:#202124;
+    --text-color-gray:#555555;
+    --light-blue:#3b5998;
+    --bg-icon-light:#5c6770;
+    --yello-bg:#f9ab00;
+    --light-led:#dc4d28;
+  }
+  h1,h2,h5{
+    color: var(--text-heading-black);
+  }
+  h1{
+    font-size: 2.6rem;
+    color: var(--text-heading-black);
+    font-weight: 500;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  h2{
+    font-size: 2rem;
+    font-weight: 400;
+    font-weight: 500;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  p{
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: var(--text-color-gray);
+    margin-top: 1.5rem;
+  }
+  h5{
+    font-size: 1.1rem;
+    font-weight: 500;
+
+  }
+  span{
+    font-size: 1.2rem;
+    color: var(--text-color-gray);
+    padding: 0.6rem;
+  }
+  .btn{
+    color: white !important;
+    font-size: 0.8rem;
+  }
+
+  /* start navbar sections */
+  .header{
+    position: sticky;
+    top: 1rem;
+  }
+  .navbar{
+    background-color:rgb(255, 255, 255);
+    width: 100%;
+  position: -webkit-sticky;
+  bottom: 1rem;
+  box-shadow: 0px 2px 7px 0px #8E8E8E;
+
+  }
+  .container-fluid{
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .navbar-brand img{
+    width: 8rem;
+  }
+  /* nav{
+    background-color: antiquewhite;
+    position: fixed;
+  } */
+
+  nav ul li:hover > ul {
+    display: block;
+  }
+  nav ul li{
+    font-size: 0.9rem !important;
+    font-weight: 400;
+  }
+  .dropdown-menu{
+    border: none;
+    background-color: #ffffff;
+    border-radius: 0.4rem;
+  }
+  .dropdown-menu  li{
+ line-height: 1.6rem;
+  }
+  .nav-link{
+    margin: 0.5rem;
+    color: var(--text-heading-black);
+    font-weight: 400;
+  }
+  .nav-link:hover{
+    margin: 0.5rem;
+    font-weight: 400;
+    color: var(--text-heading-black);
+  }
+  .cv{
+    color:var(--text-color-blue);
+  }
+  .login{
+    color:var(--text-color-blue);
+    border-radius: 0.5rem;
+    background-color:rgba(34, 78, 220, 0.15);
+  }
+  .login:hover{
+    color:var(--bg-white-color);
+    border-radius: 0.5rem;
+    background-color:var(--bg-blue-dark);
+    
+  }
+  .job-post{
+    color:var(--bg-white-color);
+    background-color:var(--text-color-blue);
+    border-radius: 0.5rem;
+  }
+  .job-post:hover{
+    color: var(--bg-white-color);
+    background-color:var(--bg-blue-dark);
+
+  }

@@ -1,0 +1,106 @@
+
+
+
+
+@media screen and (max-width: 991px) {
+    .search-icon .nav-link {
+      display: none; 
+    }
+   
+    .search-icon input{
+      width: 100%;
+      border: none;
+      border-bottom: 0.1rem solid gray;
+    }
+    .search2 .nav-link{
+      font-size: 2.5rem;
+      padding: 0rem 0rem 0 0rem !important;
+    }
+    .nav3  .nav-link-home {
+     border-left: none;
+    }
+    .nav3  .nav-link {
+      border-right: none;
+      
+     }
+   
+    .header .nav-contact,.hideBtn, .nav2 {
+        display: none;
+    }
+    .featured  .featured-right{
+       width: 100%;
+        display: block;
+        margin-top: 5rem;
+        margin-left: 0;
+        }
+        .featured{ 
+            top: 0rem;
+            margin-top: 5rem;
+          }
+          
+   .download-app .mobile-left{
+    margin-top: 14rem;
+   }
+   .persentation h1{
+    font-size: 1.8rem;
+   }
+
+   .footer .card{
+    margin-left: 0rem;
+   }
+   .footer .terms{
+    display: none;
+   }
+
+
+   /* progress bar */
+   
+#loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /* body {
+    height: 100vh;
+  } */
+  .persentation .progress-bar-text h3{
+    color: white;
+    font-size: 2rem;
+    margin-top: 4.5rem;
+  }
+
+  .copy-right{
+    display: none !important;
+  } 
+
+
+
+
+.progressbar span{
+
+  left:10;
+
+}
+
+
+
+    /* #hideDiv{
+        display: none!important;
+        border: 2px solid red!important;
+    } */
+}
+
+
+ @media screen and (max-width:768){
+  .porocess-service .services2{
+    border-right:none;
+  }
+ }
+
+
+
+
+
+
+
+
